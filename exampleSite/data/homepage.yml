@@ -97,5 +97,5 @@ call_to_action:
     de energías renovables, automatización, instrumentación y control industrial
   button:
     enable: true
-    label: Contact Us
+    label: Contáctanos
     link: contact
