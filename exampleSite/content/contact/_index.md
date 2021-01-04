@@ -1,5 +1,5 @@
 ---
-title: "Contact Us"
+title: "Contáctanos"
 subtitle: ""
 # meta description
 description: "This is meta description"
