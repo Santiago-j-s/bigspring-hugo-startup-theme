@@ -6,7 +6,7 @@ languageName = "En"
 paginate = "3"
 summaryLength = "15"
 theme = "bigspring"
-title = "Bigspring Hugo"
+title = "Tecnotrol"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.footer_left]]
@@ -37,12 +37,8 @@ name = "Terms & Conditions"
 URL = "faq"
 name = "FAQ"
 [[menu.main]]
-URL = "http:asd.com"
-name = "asd"
-weight = "22"
-[[menu.main]]
 URL = "blog"
-name = "Blog"
+name = "Energías Renovables"
 weight = 1
 [[menu.main]]
 URL = "pricing"
@@ -50,26 +46,22 @@ name = "Pricing"
 weight = 2
 [[menu.main]]
 URL = "contact"
-name = "Contact"
+name = "Contáctanos"
 weight = 3
-[[menu.main]]
-URL = "faq"
-name = "FAQ"
-weight = 4
 [params]
 author = "Themefisher"
 contact_form_action = "#"
-copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "By Federico Santana, template from Themefisher"
 description = "This is meta description"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
-footer_menu_left = "Company"
-footer_menu_middle = "Product"
-footer_menu_right = "Support"
-logo = "/images/fede.png"
+footer_content = "Desde la Patagonia con 20 años de experiencia proveemos soluciones en generación de energías renovables, automatización, instrumentación y control industrial."
+footer_menu_left = "Nosotros"
+footer_menu_middle = "Productos"
+footer_menu_right = "Algo más"
+logo = "images/fede.png"
 logo_width = "200px"
 [params.navigation_button]
 enable = true
-label = "Get Started"
+label = "Contáctanos"
 link = "contact"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
@@ -88,17 +80,13 @@ enable = false
 preloader = ""
 [[params.social]]
 icon = "ti-facebook"
-link = "#"
+link = "https://www.facebook.com/tecnotrol/"
 title = "facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
+link = "https://twitter.com/Tecnotrol"
 title = "twitter"
 [[params.social]]
-icon = "ti-skype"
-link = "#"
-title = "skype"
-[[params.social]]
 icon = "ti-linkedin"
-link = "#"
+link = "https://www.linkedin.com/company/tecnotrol---energ-a-y-control-industrial/"
 title = "linkedin"
