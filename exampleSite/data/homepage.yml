@@ -1,7 +1,7 @@
 ---
 banner:
   title: Energía y control industrial
-  image: images/8590.jpg
+  image: images/banner-art.svg
   content: Desde la Patagonia con 20 años de experiencia proveemos soluciones en generación
     de energías renovables, automatización, instrumentación y control industrial
   button:
@@ -12,9 +12,9 @@ feature:
   enable: true
   title: Something You Need To Know
   feature_item:
-  - name: Clean Code
+  - name: Energía Eólica
     icon: ti-pulse
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: Molinos de viento para que tu hogar sea independiente
   - name: Object Oriented
     icon: ti-package
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
