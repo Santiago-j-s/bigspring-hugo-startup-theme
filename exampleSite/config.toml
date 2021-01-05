@@ -37,10 +37,6 @@ name = "Terms & Conditions"
 URL = "faq"
 name = "FAQ"
 [[menu.main]]
-URL = "http:asd.com"
-name = "asd"
-weight = "22"
-[[menu.main]]
 URL = "blog"
 name = "Blog"
 weight = 1
@@ -50,7 +46,7 @@ name = "Pricing"
 weight = 2
 [[menu.main]]
 URL = "contact"
-name = "Contact"
+name = "Contáctanos"
 weight = 3
 [[menu.main]]
 URL = "faq"
