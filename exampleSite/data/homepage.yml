@@ -26,12 +26,13 @@ feature:
     icon: ti-credit-card
     content: desarrollo de dispositivos especiales y el diseño de sistemas de automatización,
       medición y control de procesos
-  - name: Faster Response
+  - name: Respuesta rápida
     icon: ti-headphone-alt
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
-  - name: Cloud Support
+    content: Respondemos rápidamente sus consultas por cualquier medio
+  - name: Calentamiento de fluidos
     icon: ti-cloud-up
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: COVUN, representa una solución eficiente para el acondicionamiento térmico
+      del petróleo
 service:
   enable: true
   service_item:
