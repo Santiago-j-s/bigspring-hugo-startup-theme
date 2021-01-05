@@ -1,14 +1,12 @@
 ---
 banner:
-  title: soluciones integrales en  energías renovables, automatización, instrumentación
-    y control industrial <br>
+  title: Energía y control industrial
   image: images/banner-art.svg
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim
-    maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque
-    laborum officiis necessitatibus
+  content: Desde la Patagonia con 20 años de experiencia proveemos soluciones en generación
+    de energías renovables, automatización, instrumentación y control industrial
   button:
     enable: true
-    label: Contact With Us
+    label: Contáctanos
     link: contact
 feature:
   enable: true
