@@ -42,7 +42,7 @@ name = "Energías Renovables"
 weight = 1
 [[menu.main]]
 URL = "pricing"
-name = "Pricing"
+name = "Control Industrial"
 weight = 2
 [[menu.main]]
 URL = "contact"
