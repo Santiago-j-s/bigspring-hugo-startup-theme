@@ -39,10 +39,10 @@ service:
   - title: COVUN
     images:
     - "/images/covac.png"
-    content: representa una solución eficiente para el acondicionamiento térmico del
-      petróleo, es natural, ecológico y adecuado a esas circunstancias. De bajo costo,
-      salto térmico de hasta 40º C, bajos costos operativos y de mantenimiento, seguro
-      y fácil de instalar, disminuye pérdidas de producción y ahorra en consumos de
+    content: Una solución eficiente para el acondicionamiento térmico del petróleo,
+      es natural, ecológico y adecuado a esas circunstancias. De bajo costo, salto
+      térmico de hasta 40º C, bajos costos operativos y de mantenimiento, seguro y
+      fácil de instalar, disminuye pérdidas de producción y ahorra en consumos de
       gas y productos químicos. De fácil operación y con diversas aplicaciones que
       lo convierten en una alternativa válida para resolver dificultades de alta viscosidad.
     button:
