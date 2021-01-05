@@ -19,12 +19,13 @@ feature:
     icon: ti-package
     content: Los sistemas de Bombeo Solar posibilitan disponer de agua todos los días
       del año
-  - name: 24h Service
+  - name: Energía solar
     icon: ti-alarm-clock
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
-  - name: Value For Money
+    content: Obten energía limpia a través del sol
+  - name: Obras y servicios
     icon: ti-credit-card
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: desarrollo de dispositivos especiales y el diseño de sistemas de automatización,
+      medición y control de procesos
   - name: Faster Response
     icon: ti-headphone-alt
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
