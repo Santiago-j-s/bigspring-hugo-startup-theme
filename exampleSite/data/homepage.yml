@@ -36,16 +36,17 @@ feature:
 service:
   enable: true
   service_item:
-  - title: It is the most advanced digital marketing and it company.
+  - title: COVUN
     images:
-    - images/service-1.png
+    - "/images/covac.png"
     - images/service-2.png
     - images/service-3.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    content: representa una solución eficiente para el acondicionamiento térmico del
+      petróleo, es natural, ecológico y adecuado a esas circunstancias. De bajo costo,
+      salto térmico de hasta 40º C, bajos costos operativos y de mantenimiento, seguro
+      y fácil de instalar, disminuye pérdidas de producción y ahorra en consumos de
+      gas y productos químicos. De fácil operación y con diversas aplicaciones que
+      lo convierten en una alternativa válida para resolver dificultades de alta viscosidad.
     button:
       enable: true
       label: Check it out
