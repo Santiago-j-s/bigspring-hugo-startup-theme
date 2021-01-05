@@ -15,9 +15,10 @@ feature:
   - name: Energía Eólica
     icon: ti-pulse
     content: Molinos de viento para que tu hogar sea independiente
-  - name: Object Oriented
+  - name: Bombeo Solar
     icon: ti-package
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+    content: Los sistemas de Bombeo Solar posibilitan disponer de agua todos los días
+      del año
   - name: 24h Service
     icon: ti-alarm-clock
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
