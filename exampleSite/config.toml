@@ -38,7 +38,7 @@ URL = "faq"
 name = "FAQ"
 [[menu.main]]
 URL = "blog"
-name = "Blog"
+name = "Energías Renovables"
 weight = 1
 [[menu.main]]
 URL = "pricing"
@@ -48,10 +48,6 @@ weight = 2
 URL = "contact"
 name = "Contáctanos"
 weight = 3
-[[menu.main]]
-URL = "faq"
-name = "FAQ"
-weight = 4
 [params]
 author = "Themefisher"
 contact_form_action = "#"
