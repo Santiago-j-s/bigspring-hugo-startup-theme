@@ -92,7 +92,7 @@ link = "https://www.facebook.com/tecnotrol/"
 title = "facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "#https://twitter.com/Tecnotrol"
+link = "https://twitter.com/Tecnotrol"
 title = "twitter"
 [[params.social]]
 icon = "ti-skype"
