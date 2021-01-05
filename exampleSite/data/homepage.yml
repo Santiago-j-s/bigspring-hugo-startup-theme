@@ -1,7 +1,7 @@
 ---
 banner:
   title: Energía y control industrial
-  image: images/banner-art.svg
+  image: images/8590.jpg
   content: Desde la Patagonia con 20 años de experiencia proveemos soluciones en generación
     de energías renovables, automatización, instrumentación y control industrial
   button:
@@ -12,44 +12,42 @@ feature:
   enable: true
   title: Something You Need To Know
   feature_item:
-  - name: Energía Eólica
+  - name: Clean Code
     icon: ti-pulse
-    content: Molinos de viento para que tu hogar sea independiente
-  - name: Bombeo Solar
+    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+  - name: Object Oriented
     icon: ti-package
-    content: Los sistemas de Bombeo Solar posibilitan disponer de agua todos los días
-      del año
-  - name: Energía solar
+    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+  - name: 24h Service
     icon: ti-alarm-clock
-    content: Obten energía limpia a través del sol
-  - name: Obras y servicios
+    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+  - name: Value For Money
     icon: ti-credit-card
-    content: desarrollo de dispositivos especiales y el diseño de sistemas de automatización,
-      medición y control de procesos
-  - name: Respuesta rápida
+    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+  - name: Faster Response
     icon: ti-headphone-alt
-    content: Respondemos rápidamente sus consultas por cualquier medio
-  - name: Calentamiento de fluidos
+    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+  - name: Cloud Support
     icon: ti-cloud-up
-    content: COVUN, representa una solución eficiente para el acondicionamiento térmico
-      del petróleo
+    content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
 service:
   enable: true
   service_item:
-  - title: COVUN
+  - title: It is the most advanced digital marketing and it company.
     images:
-    - "/images/covac.png"
-    content: Una solución eficiente para el acondicionamiento térmico del petróleo,
-      es natural, ecológico y adecuado a esas circunstancias. De bajo costo, salto
-      térmico de hasta 40º C, bajos costos operativos y de mantenimiento, seguro y
-      fácil de instalar, disminuye pérdidas de producción y ahorra en consumos de
-      gas y productos químicos. De fácil operación y con diversas aplicaciones que
-      lo convierten en una alternativa válida para resolver dificultades de alta viscosidad.
+    - images/service-1.png
+    - images/service-2.png
+    - images/service-3.png
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
+      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
+      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
+      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
+      consquat.
     button:
       enable: true
       label: Check it out
       link: "#"
-  - title: Otro servicio
+  - title: It is a privately owned Information and cyber security company
     images:
     - images/service-1.png
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
@@ -61,7 +59,7 @@ service:
       enable: true
       label: Check it out
       link: "#"
-  - title: Otro servicio
+  - title: It’s a team of experienced and skilled people with distributions
     images:
     - images/service-2.png
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
@@ -73,7 +71,7 @@ service:
       enable: true
       label: Check it out
       link: "#"
-  - title: Otro servicio
+  - title: A company standing different from others
     images:
     - images/service-3.png
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
@@ -87,7 +85,7 @@ service:
       link: "#"
 screenshot:
   enable: true
-  title: La mejor experiencia<br> 20 años de trayectoria
+  title: Experience the best <br> workflow with us
   image: images/screenshot.svg
 call_to_action:
   enable: true
