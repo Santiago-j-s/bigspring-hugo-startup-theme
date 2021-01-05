@@ -1,7 +1,7 @@
 ---
 banner:
   title: Energía y control industrial
-  image: images/8590.jpg
+  image: images/banner-art.svg
   content: Desde la Patagonia con 20 años de experiencia proveemos soluciones en generación
     de energías renovables, automatización, instrumentación y control industrial
   button:
@@ -89,10 +89,10 @@ screenshot:
   image: images/screenshot.svg
 call_to_action:
   enable: true
-  title: Ready to get started?
+  title: Contáctanos
   image: images/cta.svg
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-    eget amet, tempus eu at consecttur.
+  content: Desde la Patagonia con 20 años de experiencia proveemos soluciones en generación
+    de energías renovables, automatización, instrumentación y control industrial.
   button:
     enable: true
     label: Contact Us
