@@ -6,7 +6,7 @@ languageName = "En"
 paginate = "3"
 summaryLength = "15"
 theme = "bigspring"
-title = "Tecnotrol"
+title = "Bigspring Hugo"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.footer_left]]
@@ -37,31 +37,39 @@ name = "Terms & Conditions"
 URL = "faq"
 name = "FAQ"
 [[menu.main]]
+URL = "http:asd.com"
+name = "asd"
+weight = "22"
+[[menu.main]]
 URL = "blog"
-name = "Energías Renovables"
+name = "Blog"
 weight = 1
 [[menu.main]]
 URL = "pricing"
-name = "Control Industrial"
+name = "Pricing"
 weight = 2
 [[menu.main]]
 URL = "contact"
-name = "Contáctanos"
+name = "Contact"
 weight = 3
+[[menu.main]]
+URL = "faq"
+name = "FAQ"
+weight = 4
 [params]
 author = "Themefisher"
 contact_form_action = "#"
-copyright = "By Federico Santana, template from Themefisher"
+copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
 description = "This is meta description"
-footer_content = "Desde la Patagonia con 20 años de experiencia proveemos soluciones en generación de energías renovables, automatización, instrumentación y control industrial."
-footer_menu_left = "Nosotros"
-footer_menu_middle = "Productos"
-footer_menu_right = "Algo más"
-logo = "images/logo.png"
+footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+footer_menu_left = "Company"
+footer_menu_middle = "Product"
+footer_menu_right = "Support"
+logo = "/images/fede.png"
 logo_width = "200px"
 [params.navigation_button]
 enable = true
-label = "Contáctanos"
+label = "Get Started"
 link = "contact"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
@@ -80,13 +88,17 @@ enable = false
 preloader = ""
 [[params.social]]
 icon = "ti-facebook"
-link = "https://www.facebook.com/tecnotrol/"
+link = "#"
 title = "facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "https://twitter.com/Tecnotrol"
+link = "#"
 title = "twitter"
 [[params.social]]
+icon = "ti-skype"
+link = "#"
+title = "skype"
+[[params.social]]
 icon = "ti-linkedin"
-link = "https://www.linkedin.com/company/tecnotrol---energ-a-y-control-industrial/"
+link = "#"
 title = "linkedin"
