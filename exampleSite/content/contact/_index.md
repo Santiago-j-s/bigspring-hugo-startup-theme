@@ -6,10 +6,9 @@ description: "This is meta description"
 draft: false
 ---
 
+### ¿dudas? comunicate con nosotros.
+Ya sea quieras agregar energía verde a tu hogar o proveer a tu empresa de nuevas soluciones ecólogicas y renovables, no dudes en mandar un mensaje.
 
-### Why you should contact us!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
-
-* **Phone: +88 125 256 452** 
-* **Mail: info@bigspring.com**
-* **Address: 360 Main rd, Rio, Brazil**
+* **Phone: +542974475025** 
+* **Mail: info@tecnotrol.com**
+* **Address: Lopez Arias 550, Comodoro Rivadavia, Chubut, Argentina**
