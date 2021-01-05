@@ -37,10 +37,6 @@ name = "Terms & Conditions"
 URL = "faq"
 name = "FAQ"
 [[menu.main]]
-URL = "http:asd.com"
-name = "asd"
-weight = "1"
-[[menu.main]]
 URL = "blog"
 name = "Blog"
 weight = 1
