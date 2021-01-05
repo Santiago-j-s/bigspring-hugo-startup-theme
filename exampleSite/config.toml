@@ -95,10 +95,6 @@ icon = "ti-twitter-alt"
 link = "https://twitter.com/Tecnotrol"
 title = "twitter"
 [[params.social]]
-icon = "ti-skype"
-link = "#"
-title = "skype"
-[[params.social]]
 icon = "ti-linkedin"
-link = "#"
+link = "https://www.linkedin.com/company/tecnotrol---energ-a-y-control-industrial/"
 title = "linkedin"
