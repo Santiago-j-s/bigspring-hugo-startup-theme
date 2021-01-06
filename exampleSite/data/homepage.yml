@@ -87,8 +87,8 @@ service:
       link: "#"
 screenshot:
   enable: true
-  title: La mejor experiencia<br> 20 años de trayectoria
-  image: images/screenshot.svg
+  title: Algunas empresas que confiaron en nosotros
+  image: images/marcas.png
 call_to_action:
   enable: true
   title: Contáctanos
