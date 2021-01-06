@@ -22,6 +22,26 @@
 {{ end }}
 <!-- /banner -->
 
+<!-- screenshot -->
+{{ if site.Data.homepage.screenshot.enable }}
+{{ with site.Data.homepage.screenshot }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+      </div>
+    </div>
+  </div>
+  {{ with .image }} 
+  <div class="mx-auto text-center">
+    <img src="{{ . | absURL }}" class="img-fluid">{{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /screenshot -->
+
 <!-- feature -->
 {{ if site.Data.homepage.feature.enable }}
 {{ with site.Data.homepage.feature }}
@@ -102,26 +122,6 @@
 {{ end }}
 {{ end }}
 <!-- /service -->
-
-<!-- screenshot -->
-{{ if site.Data.homepage.screenshot.enable }}
-{{ with site.Data.homepage.screenshot }}
-<section class="section pb-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-      </div>
-    </div>
-  </div>
-  {{ with .image }} 
-  <div class="mx-auto text-center">
-    <img src="{{ . | absURL }}" class="img-fluid">{{ end }}
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /screenshot -->
 
 <!-- call to action -->
 {{ if site.Data.homepage.call_to_action.enable }}
