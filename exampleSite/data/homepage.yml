@@ -87,7 +87,7 @@ service:
       link: "#"
 screenshot:
   enable: true
-  title: Algunas empresas que confiaron en nosotros
+  title: Empresas que confiaron en nosotros
   image: images/marcas.png
 call_to_action:
   enable: true
