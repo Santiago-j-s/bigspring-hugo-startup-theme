@@ -6,7 +6,7 @@ banner:
     de energías renovables, automatización, instrumentación y control industrial
   button:
     enable: true
-    label: Contáctanos
+    label: ¿Dudas? escribinos
     link: contact
 feature:
   enable: true
@@ -36,10 +36,10 @@ feature:
 service:
   enable: true
   service_item:
-  - title: COVUN
+  - title: calentador de petróleo
     images:
     - "/images/covac.png"
-    content: Una solución eficiente para el acondicionamiento térmico del petróleo,
+    content: COVUN es una solución eficiente para el acondicionamiento térmico del petróleo,
       es natural, ecológico y adecuado a esas circunstancias. De bajo costo, salto
       térmico de hasta 40º C, bajos costos operativos y de mantenimiento, seguro y
       fácil de instalar, disminuye pérdidas de producción y ahorra en consumos de
@@ -47,43 +47,31 @@ service:
       lo convierten en una alternativa válida para resolver dificultades de alta viscosidad.
     button:
       enable: true
-      label: Check it out
+      label: Ver más información
       link: "#"
-  - title: Otro servicio
+  - title: Diágnostico termográfico
     images:
-    - images/service-1.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    - images/termografia.jpeg
+    content: Tecnotrol ofrece provisión, montaje y puesta en marcha de tendidos de cintas calefactores en cañerías, válvulas e instrumentos, adecuadas a las necesidades del proceso que necesite mantenerse térmicamente estable.
     button:
       enable: true
-      label: Check it out
+      label: Ver más información
       link: "#"
-  - title: Otro servicio
+  - title: Calentamiento Eléctrico de tanques
     images:
-    - images/service-2.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    - images/calentador_fluidos.jpeg
+    content: Promueve la seguridad ya que los calentadores eléctricos no utilizan gas, reduciendo el riesgo de fuego. Más ecológicos, el calentador eléctrico no emite ningún tipo de gas o contaminante a la atmósfera. Te permite un mejor Control con la capacidad de establecer la temperatura del agua con la exactitud deseada y mantenerla con la misma precisión durante su uso. el presente proceso se basa en un método indirecto de calentamiento, ya que la fuente primaria de calor no esta en contacto directo con el fluido final a calentar.
     button:
       enable: true
-      label: Check it out
+      label: Ver más información
       link: "#"
-  - title: Otro servicio
+  - title: Energía solar eléctrica
     images:
-    - images/service-3.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique
-      eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet
-      sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet,
-      tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel
-      consquat.
+    - images/energia_solar.jpg
+    content: El empleo de paneles solares cómo energía verde para suministrar energía eléctrica en corriente alterna, y que trabajan en paralelo con la red de distribución, a viviendas unifamiliares, negocios, edificios comerciales e industriales
     button:
       enable: true
-      label: Check it out
+      label: Ver más información
       link: "#"
 screenshot:
   enable: true
