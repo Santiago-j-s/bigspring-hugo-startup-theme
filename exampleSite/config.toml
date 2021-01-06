@@ -36,14 +36,12 @@ name = "Terms & Conditions"
 [[menu.footer_right]]
 URL = "faq"
 name = "FAQ"
-
 [[menu.main]]
 URL = "blog"
 name = "Energías Renovables"
 identifier = "energias renovables"
 weight = 1
 [[menu.main]]
-
 [[menu.main]]
 URL = "blog"
 name = "Energía Eólica"
@@ -51,7 +49,6 @@ identifier = "energia eolica"
 parent = "energias renovables"
 weight = 1
 [[menu.main]]
-
 [[menu.main]]
 URL = "blog"
 name = "Energía solar"
@@ -59,35 +56,29 @@ identifier = "energia solar"
 parent = "energias renovables"
 weight = 2
 [[menu.main]]
-
 [[menu.main]]
 URL = "blog"
 name = "Bombeo solar"
 identifier = "bombeo solar"
 parent = "energias renovables"
 weight = 3
-
-
 [[menu.main]]
 URL = "pricing"
 name = "Industria"
 identifier = "industria"
 weight = 2
-
 [[menu.main]]
 URL = "blog"
 name = "Servicios"
 identifier = "servicios"
 parent = "industria"
 weight = 1
-
 [[menu.main]]
 URL = "blog"
 name = "Productos"
 identifier = "productos"
 parent = "industria"
 weight = 2
-
 [[menu.main]]
 URL = "blog"
 name = "Proyectos"
@@ -100,15 +91,10 @@ name = "Bombeo solar"
 identifier = "bombeo solar"
 parent = "energias renovables"
 weight = 3
-
-
-
-
 [[menu.main]]
 URL = "contact"
 name = "Nosotros"
 weight = 3
-
 [params]
 author = "Themefisher"
 contact_form_action = "#"
