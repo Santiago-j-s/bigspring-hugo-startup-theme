@@ -37,9 +37,16 @@ name = "Terms & Conditions"
 URL = "faq"
 name = "FAQ"
 [[menu.main]]
-URL = "blog"
-name = "Energías Renovables"
+url = "blog"
+identifier = "energias"
+name = "Energías renovablesss"
 weight = 1
+[[menu.main]]
+url = "blog"
+identifier = "energias"
+name = "asd"
+weight = 1
+parent = "energias"
 [[menu.main]]
 URL = "pricing"
 name = "Pricing"
