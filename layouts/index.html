@@ -4,8 +4,8 @@
 {{ with site.Data.homepage.banner }}
 <section class="banner">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-1">
         <h1 class="mb-3">{{ .title | markdownify }}</h1>
         <p class="mb-4">{{ .content | markdownify }}</p>
         {{ if .button.enable }}
@@ -13,7 +13,8 @@
         <div><a href="{{ .link | safeURL }}" class="btn btn-primary">{{ .label }}</a></div>
         {{ end }}
         {{ end }}
-
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
         {{with .image}}<img src="{{ . | absURL }}" class="img-fluid mt-5" width="750px">{{end}}
       </div>
     </div>
