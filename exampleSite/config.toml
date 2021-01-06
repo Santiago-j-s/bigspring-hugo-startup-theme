@@ -37,23 +37,63 @@ name = "Terms & Conditions"
 URL = "faq"
 name = "FAQ"
 [[menu.main]]
-url = "blog"
-identifier = "energias"
-name = "Energías renovablesss"
+URL = "blog"
+name = "Energías Renovables"
+identifier = "energias renovables"
 weight = 1
 [[menu.main]]
-url = "blog"
-identifier = "energias"
-name = "asd"
-weight = 1
-parent = "energias"
 [[menu.main]]
-URL = "pricing"
-name = "Pricing"
+URL = "blog"
+name = "Energía Eólica"
+identifier = "energia eolica"
+parent = "energias renovables"
+weight = 1
+[[menu.main]]
+[[menu.main]]
+URL = "blog"
+name = "Energía solar"
+identifier = "energia solar"
+parent = "energias renovables"
 weight = 2
 [[menu.main]]
+[[menu.main]]
+URL = "blog"
+name = "Bombeo solar"
+identifier = "bombeo solar"
+parent = "energias renovables"
+weight = 3
+[[menu.main]]
+URL = "pricing"
+name = "Industria"
+identifier = "industria"
+weight = 2
+[[menu.main]]
+URL = "blog"
+name = "Servicios"
+identifier = "servicios"
+parent = "industria"
+weight = 1
+[[menu.main]]
+URL = "blog"
+name = "Productos"
+identifier = "productos"
+parent = "industria"
+weight = 2
+[[menu.main]]
+URL = "blog"
+name = "Proyectos"
+identifier = "proyectos"
+parent = "industria"
+weight = 3
+[[menu.main]]
+URL = "blog"
+name = "Bombeo solar"
+identifier = "bombeo solar"
+parent = "energias renovables"
+weight = 3
+[[menu.main]]
 URL = "contact"
-name = "Contáctanos"
+name = "Nosotros"
 weight = 3
 [params]
 author = "Themefisher"
