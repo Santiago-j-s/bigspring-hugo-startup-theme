@@ -56,7 +56,7 @@
       <div class="col-md-4 col-sm-6 mb-4">
         <div class="feature-card text-center">
           <div class="container mb-3">
-          {{$site:= printf "../exampleSite/static/icons/%s" .svg}}
+          {{$site:= printf "./static/icons/%s" .svg}}
           
           {{ readFile $site | replaceRE "fill=\"[a-zA-Z0-9#(),]+\"" "" | replaceRE "<svg" "<svg class=\"svg-icon\" width=\"30px\" height=\"30px\"" | safeHTML}} <!-- Si no existe no va a compilar nada, arreglar eso. -->
           </div>
