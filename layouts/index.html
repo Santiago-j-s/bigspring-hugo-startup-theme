@@ -114,7 +114,10 @@
       </div>
     </div>
   </div>
-  {{ with .image }} <img src="{{ . | absURL }}" class="img-fluid w-100">{{ end }}
+  {{ with .image }} 
+  <div class="mx-auto text-center">
+    <img src="{{ . | absURL }}" class="img-fluid">{{ end }}
+  </div>
 </section>
 {{ end }}
 {{ end }}
