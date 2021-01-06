@@ -13,24 +13,24 @@ feature:
   title: Qué hacemos
   feature_item:
   - name: Energía Eólica
-    icon: ti-pulse
+    svg: ti-pulse
     content: Molinos de viento para que tu hogar sea independiente
   - name: Bombeo Solar
-    icon: ti-package
+    svg: ti-package
     content: Los sistemas de Bombeo Solar posibilitan disponer de agua todos los días
       del año
   - name: Energía solar
-    icon: ti-alarm-clock
+    svg: ti-alarm-clock
     content: Energía límpia, rentable y renovable, soluciones para hogar y empresa
   - name: Obras y servicios
-    icon: ti-credit-card
+    svg: ti-credit-card
     content: Diseño de sistemas de automatización,
       medición y control de procesos
   - name: diagnóstico termográfico
-    icon: ti-headphone-alt
+    svg: ti-headphone-alt
     content: Servicio de fotografías termográficas para ver condiciones de funcionamiento
   - name: Calentamiento de fluidos
-    icon: ti-cloud-up
+    svg: ti-cloud-up
     content: Soluciones eficientes para el acondicionamiento térmico
       de fluidos
 service:
