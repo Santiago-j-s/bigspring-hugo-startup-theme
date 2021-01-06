@@ -66,16 +66,49 @@ name = "Bombeo solar"
 identifier = "bombeo solar"
 parent = "energias renovables"
 weight = 3
+
+
 [[menu.main]]
-
-
 URL = "pricing"
-name = "Pricing"
+name = "Industria"
+identifier = "industria"
 weight = 2
+
+[[menu.main]]
+URL = "blog"
+name = "Servicios"
+identifier = "servicios"
+parent = "industria"
+weight = 1
+
+[[menu.main]]
+URL = "blog"
+name = "Productos"
+identifier = "productos"
+parent = "industria"
+weight = 2
+
+[[menu.main]]
+URL = "blog"
+name = "Proyectos"
+identifier = "proyectos"
+parent = "industria"
+weight = 3
+[[menu.main]]
+URL = "blog"
+name = "Bombeo solar"
+identifier = "bombeo solar"
+parent = "energias renovables"
+weight = 3
+
+
+
+
 [[menu.main]]
 URL = "contact"
-name = "Contáctanos"
+name = "Nosotros"
 weight = 3
+
 [params]
 author = "Themefisher"
 contact_form_action = "#"
