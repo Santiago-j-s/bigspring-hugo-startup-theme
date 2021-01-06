@@ -10,7 +10,7 @@ banner:
     link: contact
 feature:
   enable: true
-  title: Something You Need To Know
+  title: Qué hacemos
   feature_item:
   - name: Energía Eólica
     icon: ti-pulse
@@ -21,18 +21,18 @@ feature:
       del año
   - name: Energía solar
     icon: ti-alarm-clock
-    content: Obten energía limpia a través del sol
+    content: Energía límpia, rentable y renovable, soluciones para hogar y empresa
   - name: Obras y servicios
     icon: ti-credit-card
-    content: desarrollo de dispositivos especiales y el diseño de sistemas de automatización,
+    content: Diseño de sistemas de automatización,
       medición y control de procesos
-  - name: Respuesta rápida
+  - name: diagnóstico termográfico
     icon: ti-headphone-alt
-    content: Respondemos rápidamente sus consultas por cualquier medio
+    content: Servicio de fotografías termográficas para ver condiciones de funcionamiento
   - name: Calentamiento de fluidos
     icon: ti-cloud-up
-    content: COVUN, representa una solución eficiente para el acondicionamiento térmico
-      del petróleo
+    content: Soluciones eficientes para el acondicionamiento térmico
+      de fluidos
 service:
   enable: true
   service_item:
