@@ -49,7 +49,7 @@ business:
     label : "Get started for free"
     link : "#"
 
-call_to_action:
+premios:
   enable : true
   title : "Need a larger plan?"
   image : "images/cta.svg"
