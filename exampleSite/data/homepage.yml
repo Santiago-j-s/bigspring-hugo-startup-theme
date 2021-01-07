@@ -77,13 +77,12 @@ screenshot:
   enable: true
   title: Empresas que confiaron en nosotros
   image: images/marcas.png
-call_to_action:
+premios:
   enable: true
-  title: Contáctanos
-  image: images/cta.svg
-  content: Desde la Patagonia con 20 años de experiencia proveemos soluciones en generación
-    de energías renovables, automatización, instrumentación y control industrial
+  title: Ganadores premio Tenaris 2007
+  image: images/trofeito.png
+  content: El Premio Tenaris al Desarrollo Tecnológico Argentino está organizado por Tenaris junto al Ministerio de Ciencia, Tecnología e Innovación Productiva, con el apoyo de Endeavor, una organización que impulsa el desarrollo del país apoyando a emprendedores de alto impacto y promoviendo la cultura emprendedora.
   button:
-    enable: true
+    enable: false
     label: Contáctanos
     link: contact
