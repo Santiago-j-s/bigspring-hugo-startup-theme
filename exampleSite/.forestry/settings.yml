@@ -7,15 +7,15 @@ sections:
 - type: heading
   label: Homepage
 - type: document
-  path: exampleSite/data/homepage.yml
+  path: data/homepage.yml
   label: Homepage Data
 - type: heading
   label: Blog Post
 - type: document
-  path: exampleSite/content/blog/_index.md
+  path: content/blog/_index.md
   label: Blog Page
 - type: directory
-  path: exampleSite/content/blog
+  path: content/blog
   label: Blog Post
   create: documents
   match: "**/*"
@@ -25,7 +25,7 @@ sections:
 - type: heading
   label: Others Page
 - type: document
-  path: exampleSite/content/faq/_index.md
+  path: content/faq/_index.md
   label: FAQ
 - type: document
   path: exampleSite/content/contact/_index.md
