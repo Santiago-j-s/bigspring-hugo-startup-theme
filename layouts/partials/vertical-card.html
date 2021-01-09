@@ -1,0 +1,12 @@
+<div class="col-md-4">
+  <h2 class="section-title">{{ .title | markdownify }}</h2>
+  <p>{{ .content | markdownify }}</p>
+  <div>
+    <img src="{{ .image | absURL }}" class="img-fluid" />
+  </div>
+  {{ if .button.enable }}
+  <a href="{{ .button.link | absURL }}" class="btn-link">
+    {{ .button.label }} <i class="ti-arrow-right"></i>
+  </a>
+  {{ end }}
+</div>
