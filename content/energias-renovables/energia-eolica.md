@@ -7,7 +7,7 @@ image: "images/blog/post-1.jpg"
 description: "This is meta description"
 # post draft
 draft: false
-type: energia-eolica
+type: energias-renovables/energia-eolica
 menu:
   main:
     parent: "energias renovables"
