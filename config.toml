@@ -1,0 +1,139 @@
+baseURL = "https://tecnotrol.netlify.app/"
+disqusShortname = ""
+googleAnalytics = ""
+languageCode = "en-us"
+languageName = "En"
+paginate = "3"
+summaryLength = "15"
+theme = "bigspring"
+title = "Tecnotrol"
+[markup.goldmark.renderer]
+unsafe = true
+[[menu.footer_left]]
+URL = "#"
+name = "About Us"
+[[menu.footer_left]]
+URL = "#"
+name = "Quick Start"
+[[menu.footer_left]]
+URL = "pricing"
+name = "Pricing"
+[[menu.footer_middle]]
+URL = "pricing"
+name = "Pricing"
+[[menu.footer_middle]]
+URL = "#"
+name = "Platform"
+[[menu.footer_middle]]
+URL = "#"
+name = "Features"
+[[menu.footer_right]]
+URL = "privacy-policy"
+name = "Privacy Policy"
+[[menu.footer_right]]
+URL = "terms-conditions"
+name = "Terms & Conditions"
+[[menu.footer_right]]
+URL = "faq"
+name = "FAQ"
+[[menu.main]]
+URL = "blog"
+name = "Energías Renovables"
+identifier = "energias renovables"
+weight = 1
+[[menu.main]]
+[[menu.main]]
+URL = "blog"
+name = "Energía Eólica"
+identifier = "energia eolica"
+parent = "energias renovables"
+weight = 1
+[[menu.main]]
+[[menu.main]]
+URL = "blog"
+name = "Energía solar"
+identifier = "energia solar"
+parent = "energias renovables"
+weight = 2
+[[menu.main]]
+[[menu.main]]
+URL = "blog"
+name = "Bombeo solar"
+identifier = "bombeo solar"
+parent = "energias renovables"
+weight = 3
+[[menu.main]]
+URL = "pricing"
+name = "Industria"
+identifier = "industria"
+weight = 2
+[[menu.main]]
+URL = "blog"
+name = "Servicios"
+identifier = "servicios"
+parent = "industria"
+weight = 1
+[[menu.main]]
+URL = "blog"
+name = "Productos"
+identifier = "productos"
+parent = "industria"
+weight = 2
+[[menu.main]]
+URL = "blog"
+name = "Proyectos"
+identifier = "proyectos"
+parent = "industria"
+weight = 3
+[[menu.main]]
+URL = "blog"
+name = "Bombeo solar"
+identifier = "bombeo solar"
+parent = "energias renovables"
+weight = 3
+[[menu.main]]
+URL = "contact"
+name = "Nosotros"
+weight = 3
+[params]
+author = "Themefisher"
+contact_form_action = "#"
+copyright = "By Federico Santana, template from Themefisher"
+description = "This is meta description"
+footer_content = ""
+footer_menu_left = "Nosotros"
+footer_menu_middle = "Productos"
+footer_menu_right = "Algo más"
+logo = "images/fede.png"
+logo_width = "200px"
+[params.navigation_button]
+enable = true
+label = "Contáctanos"
+link = "contact"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[params.preloader]
+enable = false
+preloader = ""
+[[params.social]]
+icon = "ti-facebook"
+link = "https://www.facebook.com/tecnotrol/"
+title = "facebook"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/Tecnotrol"
+title = "twitter"
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/company/tecnotrol---energ-a-y-control-industrial/"
+title = "linkedin"
