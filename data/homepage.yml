@@ -1,13 +1,4 @@
 ---
-banner:
-  title: Energía Eólica
-  image: /images/WindTurbine.svg
-  content: Aprovechá la energía que ofrece el viento con nuestros aerogeneradores de _**industria argentina**_ completamente aptos para ser utilizados en condiciones climáticas extremas, con un excelente rendimiento que satisface los requerimientos de una vivienda rural
-
-  button:
-    enable: true
-    label: ¿Dudas? escribinos
-    link: contact
 feature:
   enable: true
   title: Qué hacemos
@@ -36,18 +27,43 @@ feature:
 service:
   enable: true
   service_item:
-  - title: TECNO 800
+  - title: calentador de petróleo
     images:
     - "/images/covac.png"
-    content: "Este equipo está diseñado y fabricado en su totalidad por Tecnotrol SRL en Comodoro Rivadavia. El TECNO-800 fue probado en condiciones climáticas extremas y ha demostrando una resistencia sin precedentes para este tipo de productos. Su rendimiento, satisface  los requerimientos de electricidad básicos de una vivienda rural en 220V o 24V: TV, radio, iluminación y permite operar electrodomésticos con uso racional de la energía."
+    content: COVUN es una solución eficiente para el acondicionamiento térmico del petróleo,
+      es natural, ecológico y adecuado a esas circunstancias. De bajo costo, salto
+      térmico de hasta 40º C, bajos costos operativos y de mantenimiento, seguro y
+      fácil de instalar, disminuye pérdidas de producción y ahorra en consumos de
+      gas y productos químicos. De fácil operación y con diversas aplicaciones que
+      lo convierten en una alternativa válida para resolver dificultades de alta viscosidad.
     button:
-      enable: false
+      enable: true
       label: Ver más información
       link: "#"
-screenshot:
-  enable: true
-  title: Empresas que confiaron en nosotros
-  image: images/marcas.png
+  - title: Diágnostico termográfico
+    images:
+    - images/termografia.jpeg
+    content: Tecnotrol ofrece provisión, montaje y puesta en marcha de tendidos de cintas calefactores en cañerías, válvulas e instrumentos, adecuadas a las necesidades del proceso que necesite mantenerse térmicamente estable.
+    button:
+      enable: true
+      label: Ver más información
+      link: "#"
+  - title: Calentamiento Eléctrico de tanques
+    images:
+    - images/calentador_fluidos.jpeg
+    content: Promueve la seguridad ya que los calentadores eléctricos no utilizan gas, reduciendo el riesgo de fuego. Más ecológicos, el calentador eléctrico no emite ningún tipo de gas o contaminante a la atmósfera. Te permite un mejor Control con la capacidad de establecer la temperatura del agua con la exactitud deseada y mantenerla con la misma precisión durante su uso. el presente proceso se basa en un método indirecto de calentamiento, ya que la fuente primaria de calor no esta en contacto directo con el fluido final a calentar.
+    button:
+      enable: true
+      label: Ver más información
+      link: "#"
+  - title: Energía solar eléctrica
+    images:
+    - images/energia_solar.jpg
+    content: El empleo de paneles solares cómo energía verde para suministrar energía eléctrica en corriente alterna, y que trabajan en paralelo con la red de distribución, a viviendas unifamiliares, negocios, edificios comerciales e industriales
+    button:
+      enable: true
+      label: Ver más información
+      link: "#"
 premios:
   enable: true
   title: Ganadores premio Tenaris 2007
