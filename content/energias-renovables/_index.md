@@ -1,7 +1,6 @@
 ---
-title: Energía Eólica
+title: Energías renovables
 subtitle: ''
 description: This is meta description
 
 ---
-Probando desde forestry, 123

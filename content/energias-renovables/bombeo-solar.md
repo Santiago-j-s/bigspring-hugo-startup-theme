@@ -13,9 +13,11 @@ menu:
     parent: "energias renovables"
     weight: 2
 banner:
-  title: Energía Eólica
-  image: /images/WindTurbine.svg
-  content: Aprovechá la energía que ofrece el viento con nuestros aerogeneradores de _**industria argentina**_ completamente aptos para ser utilizados en condiciones climáticas extremas, con un excelente rendimiento que satisface los requerimientos de una vivienda rural
+  title: Bombeo Solar
+  image: /images/banner_bombeo_solar.png
+  content: Bomba hidraulica alimentada de forma directa por paneles solares fotovoltaicos, disfrutá del agua todos los días del año, sin instalaciones  fijas, libres de mantenimiento. 
+
+
 
   button:
     enable: true
