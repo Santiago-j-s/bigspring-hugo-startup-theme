@@ -15,8 +15,12 @@ menu:
     weight: 2
 banner:
   title: Bombeo Solar
+  title_weight: 1
   image: /images/banner_bombeo_solar.png
+  image_weight: 2
   content: Bomba hidraulica alimentada de forma directa por paneles solares fotovoltaicos, disfrutá del agua todos los días del año, sin instalaciones  fijas, libres de mantenimiento. 
+  background: bg-dark
+  text: light
   button:
     enable: true
     label: ¿Dudas? escribinos
