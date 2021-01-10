@@ -1,3 +1,4 @@
+
 .banner__pages{
   padding: 0px;
 }
@@ -9,3 +10,18 @@
       display: inline-block;
     }
   }
+
+.grayscale{
+  filter: grayscale(100%);
+}
+
+.gray{
+  background: #f7f8f8;
+}
+
+.letterRodri{
+  color: #0e1e25;
+  font-size: 1.375em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
