@@ -15,8 +15,12 @@ name = "Energías Renovables"
 weight = 1
 [[menu.main]]
 identifier = "industria"
-name = "Industría"
+name = "Industria"
 weight = 2
+[[menu.main]]
+identifier = "Nosotros"
+name = "Nosotros"
+weight = 3
 [[menu.footer_left]]
 URL = "#"
 name = "About Us"
