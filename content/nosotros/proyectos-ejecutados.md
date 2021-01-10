@@ -14,12 +14,16 @@ menu:
     weight: 1
 
 banner:
-  title: Energía Eólica
-  image: /images/WindTurbine.svg
-  content: Aprovechá la energía que ofrece el viento con nuestros aerogeneradores de _**industria argentina**_ completamente aptos para ser utilizados en condiciones climáticas extremas, con un excelente rendimiento que satisface los requerimientos de una vivienda rural
+  title: Proyectos Ejecutados
+  title_weight: 1
+  image: /images/proyectos_ejecutados.svg
+  image_weight: 2
+  content: "En Tecnotrol SRL tenemos una amplia trayectoria con una gran variedad de proyectos terminados para pequeñas y grandes empresas que le podrá dar una idea de la calidad que mantenemos en nuestra empresa"
+  background: bg-dark
+  text: light
 
   button:
-    enable: true
+    enable: false 
     label: ¿Dudas? escribinos
     link: contact
 
@@ -45,74 +49,4 @@ cards:
       enable: false
       label: Ver más información
       link: "#"
-
-
-table:
-  title: "Valores técnicos"
-  cols:
-    - Caracteristicas
-    - Tecno 800
-    - Tecno 1200
-    - Cer 50
-
-  rows:
-    - row:
-      - Diámetro del rotor
-      - 2,2m
-      - 3,23m
-      - empty
-
-    - row:
-      - Montaje
-      - Torre reticulada de 3.6m de altura o más
-      - Torre reticulada c/caño de 9mm
-      - empty
-
-    - row:
-      - Velocidad de Arranque
-      - 15km/h
-      - 15km/h
-      - empty
-
-    - row:
-      - Voltage
-      - 24vcc
-      - 48vcc
-      - empty
-
-    - row:
-      - Cuerpo
-      - Acero al carbono
-      - Acero al carbono
-      - empty
-
-    - row:
-      - Potencia nominal
-      - 800W a 45km/h
-      - 15000W a 45km/h
-      - empty
-
-    - row:
-      - Velocidad nominal del generador
-      - not info
-      - 850rpm
-      - empty
-
-    - row:
-      - Aspas
-      - PRF (laminadas en frío en fibra de vidro/epoxi)
-      - PRFV (laminadas en frío en material compuesto)
-      - empty
-
-    - row:
-      - Sistema de control
-      - Protección de velocidad excesiva
-      - controla freno electromagnético, corriente, tensión y velocidad
-      - empty
-      
-    - row:
-      - Velocidad máxima soportada
-      - 180km/h
-      - 180km/h
-      - empty
 ---
