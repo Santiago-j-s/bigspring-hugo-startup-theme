@@ -5,10 +5,15 @@
         <h1 class="mb-3 text-light bg-dark">{{ .title | markdownify }}</h1>
         <p class="mb-4 text-light bg-dark">{{ .content | markdownify }}</p>
         {{ if .button.enable }}
-        {{ with .button }}
-        <div><a href="{{ .link | safeURL }}" class="btn btn-primary">{{ .label }}</a></div>
+        <div><a href="{{ .button.link | safeURL }}" class="btn btn-primary">{{ .button.label }}</a></div>
         {{ end }}
+        {{ if .list.enable }}
+        <ul>
+        {{ range .list.texts}}
+        <li class="mb-4 text-light bg-dark"> {{.}}</li>
         {{ end }}
+      </ul>
+        {{ end}}
       </div>
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
         {{with .image}}<img src="{{ . | absURL }}" class="img-fluid mt-5">{{end}}
