@@ -1,0 +1,19 @@
+{{$text_color := .text}}
+<section class="section align-items-center {{.background}}">
+    <div class="container align-items-center {{.background}} ">
+      <div class="row align-items-center justify-content-center text-center text-md-left">
+        {{ if .enable }}
+        {{ if .image.enable }}
+            <div class="col-md-6 align-items-center">
+                <img class="img-fluid" src= "{{ .image.location | absURL }}"></img>
+            </div>
+        {{ end }}
+        <ul class="col-md-6 align-items-center {{.background}}">
+        {{ range .texts}}
+          <li class="mb-2 text-{{$text_color}}"> {{.}}</li>
+        {{ end }}
+        </ul>
+        {{ end}}
+      </div>
+    </div>
+    </section>
