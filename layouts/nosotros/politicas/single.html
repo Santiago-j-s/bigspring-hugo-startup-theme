@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ with .Params.banner }}
+    {{ partial "dark-banner.html" . }}
+{{ end }}
+{{ with .Params.list}}
+    {{ partial "list-image" .}}
+{{ end}}
+{{ with .Params.banner2}}
+    {{ partial "dark-banner-inverted.html" . }}
+{{ end }}
+{{ with .Params.list2}}
+    {{ partial "list-image" .}}
+{{ end}}
+{{ end }}
