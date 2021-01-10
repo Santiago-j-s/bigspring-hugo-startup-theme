@@ -7,8 +7,12 @@ draft: false
 
 banner:
   title: "Energía y control industrial"
+  title_weight: 1
   image: /images/8590.jpg
+  image_weight: 2
   content: Desde la Patagonia con 20 años de experiencia proveemos soluciones en generación de energías renovables, automatización, instrumentación y control industrial
+  background: bg-dark
+  text: light
 
   button:
     enable: true
