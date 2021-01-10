@@ -2,4 +2,13 @@
 {{ with .Params.banner }}
     {{ partial "banner.html" . }}
 {{ end }}
+<section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="content">{{ .Content }}</div>
+        </div>
+      </div>
+    </div>
+  </section>
 {{ end }}
