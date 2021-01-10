@@ -31,6 +31,7 @@ list:
   enable: true
   background: bg-dark
   text: light
+  text_weight: 2
   texts:
     - Identificará los peligros, evaluará y controlará los riesgos significativos de Seguridad y   Salud Ocupacional de sus actividades.
     - Identificará los aspectos, evaluará y controlará los impactos ambientales significativos, realizando las acciones que sean necesarias para  la prevención de la  contaminación.
@@ -43,6 +44,7 @@ list:
     - "Por ello es que: es responsabilidad indelegable de cada una de las personas que componen la Gerencia de TECNOTROL SRL, cumplir y hacer cumplir ésta Política, así como la legislación vigente en Higiene y seguridad en el trabajo"
   image:
     enable: true
+    weight: 1
     location: /images/check.svg
 banner2:
   title: Política de seguridad y ambiente
@@ -56,6 +58,7 @@ list2:
   enable: true
   background: bg-gray
   text: dark
+  text_weight: 1
   texts:
     - Integrar la Gestión de Calidad como una de nuestras prioridades.
     - Identificar y satisfacer las necesidades de nuestros clientes, proporcionándoles productos y servicios en tiempo y forma con responsabilidad y ética.
@@ -70,6 +73,7 @@ list2:
 
   image:
     enable: true
+    weight: 2
     location: /images/confirmed.svg
 
   button:
