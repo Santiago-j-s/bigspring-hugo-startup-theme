@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{ with .Params.banner }}
+    {{ partial "dark-banner.html" . }}
+{{ end }}
+{{ with .Params.banner2}}
+{{ partial "dark-banner-inverted.html" . }}
+{{ end }}
+{{ "<!-- faq -->" | safeHTML }}
+<div class="container">
+  <section class="bg-white section pb-0">
+    <h2 class="mb-3 text-dark bg-white"> Preguntas Frecuentes </h2>
+    <div class="container">
+      <div class="row">
+        {{ .Content }}
+      </div>
+    </div>
+  </section>
+</div>
+{{ "<!-- /faq -->" | safeHTML }}
+{{ partial "testimonial.html"}}
+{{ end }}
