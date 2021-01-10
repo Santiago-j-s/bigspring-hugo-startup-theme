@@ -8,7 +8,7 @@ description: "This is meta description"
 type: energias-renovables/bombeo-solar
 # post draft
 draft: false
-title: "Componentes"
+sectionTitle: "Componentes"
 menu:
   main:
     parent: "energias renovables"
