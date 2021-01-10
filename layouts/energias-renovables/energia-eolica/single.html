@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ with .Params.banner }}
+    {{ partial "dark-banner.html" . }}
+{{ end }}
+
+<section class="section bg-white">
+  <div class="container">
+    <div class="row align-items-top">
+        {{ range .Params.cards }}
+            {{ partial "vertical-card.html" . }}
+        {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ partial "table.html" .Params.table }}
+{{ end }}

@@ -1,13 +1,4 @@
 ---
-banner:
-  title: Energía y control industrial
-  image: /images/8590.jpg
-  content: Desde la Patagonia con 20 años de experiencia proveemos soluciones en generación
-    de energías renovables, automatización, instrumentación y control industrial
-  button:
-    enable: true
-    label: ¿Dudas? escribinos
-    link: contact
 feature:
   enable: true
   title: Qué hacemos
@@ -33,9 +24,7 @@ feature:
     svg: calentamiento_fluidos.svg
     content: Soluciones eficientes para el acondicionamiento térmico
       de fluidos
-service:
-  enable: true
-  service_item:
+services:
   - title: calentador de petróleo
     images:
     - "/images/covac.png"
@@ -73,10 +62,6 @@ service:
       enable: true
       label: Ver más información
       link: "#"
-screenshot:
-  enable: true
-  title: Empresas que confiaron en nosotros
-  image: images/marcas.png
 premios:
   enable: true
   title: Ganadores premio Tenaris 2007

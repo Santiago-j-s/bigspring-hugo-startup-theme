@@ -4,6 +4,10 @@ subtitle: ""
 # meta description
 description: "This is meta description"
 draft: false
+menu:
+  main:
+    title: "Nosotros"
+    weight: 3
 ---
 
 ### ¿dudas? comunicate con nosotros.
