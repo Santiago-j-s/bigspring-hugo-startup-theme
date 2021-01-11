@@ -4,11 +4,11 @@
       <div class="row align-items-center justify-content-center text-center text-md-left">
         {{ if .enable }}
         {{ if .image.enable }}
-            <div class="col-md-6 align-items-center">
+            <div class="col-md-6 align-items-center order-{{.image.weight}}">
                 <img class="img-fluid" src= "{{ .image.location | absURL }}"></img>
             </div>
         {{ end }}
-        <ul class="col-md-6 align-items-center {{.background}}">
+        <ul class="col-md-6 align-items-center {{.background}} order-{{.text_weight}}">
         {{ range .texts}}
           <li class="mb-2 text-{{$text_color}}"> {{.}}</li>
         {{ end }}
