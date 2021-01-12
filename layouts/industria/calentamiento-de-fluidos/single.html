@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+{{ with .Params.banner }}
+    {{ partial "banner.html" . }}
+{{ end }}
+{{ with .Params.banner2}}
+  {{ partial "banner.html" . }}
+{{ end }}
+{{ with .Params.list}}
+  {{ partial "banner-list.html" . }}
+{{ end }}
+{{ with .Params.banner3}}
+  {{ partial "banner.html" . }}
+{{ end }}
+
+
+
+{{ end }}
