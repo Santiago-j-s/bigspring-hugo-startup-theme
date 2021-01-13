@@ -15,4 +15,8 @@
       </div>
     </div>
 </section>
+
+{{with .Params.carousel }}
+{{ partial "carousel.html" . }}
+{{ end }}
 {{ end }}

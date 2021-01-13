@@ -25,6 +25,33 @@ banner:
     enable: true
     label: ¿Dudas? escribinos
     link: contact
+carousel:
+  enable: true
+  background: bg-dark
+  text: light
+  text_weight: 1
+  items: 
+   - item:
+        title: electricidad
+        image: /images/electricidad.jpeg
+        list:
+          - probando1
+          - probando2
+          - probando3
+   - item:
+        title: electricidad
+        image: /images/nivel.png
+        list:
+          - probando4
+          - probando5
+          - probando6
+   - item:
+        title: electricidad
+        image:  /images/nivel.png
+        list:
+          - probando7
+          - probando8
+          - probando9
 ---
 ## Caudal
 
