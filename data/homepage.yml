@@ -3,6 +3,17 @@ feature:
   enable: true
   title: Qué hacemos
   feature_item:
+  - name: Calentamiento de fluidos
+    svg: calentamiento_fluidos.svg
+    content: Soluciones eficientes para el acondicionamiento térmico
+      de fluidos
+  - name: diagnóstico termográfico
+    svg: diagnostico_termografico.svg
+    content: Servicio de fotografías termográficas para ver condiciones de funcionamiento
+  - name: Obras y servicios
+    svg: obras_y_servicios.svg
+    content: Diseño de sistemas de automatización,
+      medición y control de procesos
   - name: Energía Eólica
     svg: energia-eolica.svg
     content: Molinos de viento para que tu hogar sea independiente
@@ -13,17 +24,6 @@ feature:
   - name: Energía solar
     svg: energia_solar.svg
     content: Energía límpia, rentable y renovable, soluciones para hogar y empresa
-  - name: Obras y servicios
-    svg: obras_y_servicios.svg
-    content: Diseño de sistemas de automatización,
-      medición y control de procesos
-  - name: diagnóstico termográfico
-    svg: diagnostico_termografico.svg
-    content: Servicio de fotografías termográficas para ver condiciones de funcionamiento
-  - name: Calentamiento de fluidos
-    svg: calentamiento_fluidos.svg
-    content: Soluciones eficientes para el acondicionamiento térmico
-      de fluidos
 services:
   - title: calentador de petróleo
     images:
