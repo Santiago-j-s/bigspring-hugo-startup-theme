@@ -6,11 +6,11 @@ description: "This is meta description"
 draft: false
 
 banner:
-  title: "Energía y control industrial"
+  title: "Control Industrial y Energía"
   title_weight: 1
   image: /images/8590.jpg
   image_weight: 2
-  content: Desde la Patagonia con 20 años de experiencia proveemos soluciones en generación de energías renovables, automatización, instrumentación y control industrial
+  content: "Somos una empresa creada para desarrollar *soluciones tecnológicas* para la industria de los hidrocarburos, minería, energías alternativas y en general, mediante **servicios de ingeniería**, **obras** y **mantenimiento de instalaciones industriales** en el área de electro instrumentación"
   background: bg-dark
   text: light
 
@@ -20,7 +20,7 @@ banner:
     link: contact
 
 clientes:
-  enable: true
+  enable: false
   title: Empresas que confiaron en nosotros
   image: images/marcas.png
 ---
