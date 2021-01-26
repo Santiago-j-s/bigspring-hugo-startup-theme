@@ -6,7 +6,7 @@ feature:
   - name: Calentamiento de fluidos
     svg: calentamiento_fluidos.svg
     content: Soluciones eficientes para el acondicionamiento térmico
-      de fluidos
+      de fluidos, especialmente los vinculados a la industria petrolífica
   - name: diagnóstico termográfico
     svg: diagnostico_termografico.svg
     content: Servicio de fotografías termográficas para ver condiciones de funcionamiento
@@ -14,16 +14,9 @@ feature:
     svg: obras_y_servicios.svg
     content: Diseño de sistemas de automatización,
       medición y control de procesos
-  - name: Energía Eólica
-    svg: energia-eolica.svg
-    content: Molinos de viento para que tu hogar sea independiente
-  - name: Bombeo Solar
-    svg: bombeo_solar.svg
-    content: Los sistemas de Bombeo Solar posibilitan disponer de agua todos los días
-      del año
-  - name: Energía solar
-    svg: energia_solar.svg
-    content: Energía límpia, rentable y renovable, soluciones para hogar y empresa
+  - name: Energías Renovables
+    svg: energia-renovable.svg
+    content: Proveemos soluciones orientadas al uso de energías renovables
 bigSection:
   title: Industria
   title_weight: 1
@@ -35,7 +28,7 @@ bigSection:
   text: dark
   content: "Ofrecemos las soluciones necesarias para la industria en general con productos de desarrollo propio o como integradores. Control Industrial, Calefacción de fluidos en reposo o en circulación, Automatización y provisión de instrumentos de medición."
   button:
-    enable: true
+    enable: false
     label: Ver más información
     link: "#"
   items:
