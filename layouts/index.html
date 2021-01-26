@@ -13,7 +13,7 @@
         {{ end }}
       </div>
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-        <img src="{{ .image | absURL }}" class="img-fluid mt-5" width="750px">
+        <img src="{{ .image | absURL }}" class="img-fluid mt-5 rounded" width="750px">
       </div>
     </div>
   </div>
@@ -70,7 +70,7 @@
 <!-- /feature -->
 
 <!-- service -->
-  {{ partial "description-list.html" site.Data.homepage.services }}
+  {{ partial "bigSection.html" site.Data.homepage.bigSection }}
 <!-- /service -->
 
 <!-- call to action -->
