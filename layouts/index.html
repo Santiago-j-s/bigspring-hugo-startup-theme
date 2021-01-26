@@ -13,7 +13,7 @@
         {{ end }}
       </div>
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-        <img src="{{ .image | absURL }}" class="img-fluid mt-5" width="750px">
+        <img src="{{ .image | absURL }}" class="img-fluid mt-5 rounded fade-in" width="750px">
       </div>
     </div>
   </div>
@@ -50,7 +50,7 @@
         <h2 class="section-title">{{ .title | markdownify }}</h2>
       </div>
       {{ range .feature_item }}
-      <div class="col-md-4 col-sm-6 mb-4">
+      <div class="col-md-6 col-sm-6 mb-4">
         <div class="feature-card text-center">
           <div class="container mb-3">
           {{$site:= printf "./static/icons/%s" .svg}}
@@ -69,8 +69,11 @@
 {{ end }}
 <!-- /feature -->
 
+<!-- bigSection -->
+  {{ partial "bigSection.html" site.Data.homepage.bigSection }}
+<!-- /bigSection -->
+
 <!-- service -->
-  {{ partial "description-list.html" site.Data.homepage.services }}
 <!-- /service -->
 
 <!-- call to action -->

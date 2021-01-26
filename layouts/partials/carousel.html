@@ -1,0 +1,38 @@
+<section class="section">
+  <div class="container pricing-container">
+    <div class="row justify-content-center align-items-center">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          {{ range .items }}
+          <div class="carousel-item active">
+            <div class="card border-0 shadow-lg">
+              <div class="card-body text-center py-5">
+                <h3 class="mt-0 letterRodri">  {{ .item.title }}</h3>
+                <img class="img-fluid" src="{{ .item.image | absURL}}" alt="First slide">
+                <ul class="list-group-flush pl-0">
+                  {{ range .item.list}}
+                  <li class="list-group-item py-2 px-0"> {{ . }} </li>
+                  {{ end}}
+                </ul>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

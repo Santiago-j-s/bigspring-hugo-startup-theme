@@ -3,65 +3,56 @@ feature:
   enable: true
   title: Qué hacemos
   feature_item:
-  - name: Energía Eólica
-    svg: energia-eolica.svg
-    content: Molinos de viento para que tu hogar sea independiente
-  - name: Bombeo Solar
-    svg: bombeo_solar.svg
-    content: Los sistemas de Bombeo Solar posibilitan disponer de agua todos los días
-      del año
-  - name: Energía solar
-    svg: energia_solar.svg
-    content: Energía límpia, rentable y renovable, soluciones para hogar y empresa
+  - name: Calentamiento de fluidos
+    svg: calentamiento_fluidos.svg
+    content: Soluciones eficientes para el acondicionamiento térmico
+      de fluidos, especialmente los vinculados a la industria petrolífica
+  - name: diagnóstico termográfico
+    svg: diagnostico_termografico.svg
+    content: Servicio de fotografías termográficas para ver condiciones de funcionamiento
   - name: Obras y servicios
     svg: obras_y_servicios.svg
     content: Diseño de sistemas de automatización,
       medición y control de procesos
-  - name: diagnóstico termográfico
-    svg: diagnostico_termografico.svg
-    content: Servicio de fotografías termográficas para ver condiciones de funcionamiento
-  - name: Calentamiento de fluidos
-    svg: calentamiento_fluidos.svg
-    content: Soluciones eficientes para el acondicionamiento térmico
-      de fluidos
-services:
-  - title: calentador de petróleo
-    images:
+  - name: Energías Renovables
+    svg: energia-renovable.svg
+    content: Proveemos soluciones orientadas al uso de energías renovables
+bigSection:
+  title: Industria
+  title_weight: 1
+  images:
     - "/images/covac.png"
-    content: COVUN es una solución eficiente para el acondicionamiento térmico del petróleo,
-      es natural, ecológico y adecuado a esas circunstancias. De bajo costo, salto
-      térmico de hasta 40º C, bajos costos operativos y de mantenimiento, seguro y
-      fácil de instalar, disminuye pérdidas de producción y ahorra en consumos de
-      gas y productos químicos. De fácil operación y con diversas aplicaciones que
-      lo convierten en una alternativa válida para resolver dificultades de alta viscosidad.
-    button:
-      enable: true
-      label: Ver más información
-      link: "#"
-  - title: Diágnostico termográfico
-    images:
-    - images/termografia.jpeg
-    content: Tecnotrol ofrece provisión, montaje y puesta en marcha de tendidos de cintas calefactores en cañerías, válvulas e instrumentos, adecuadas a las necesidades del proceso que necesite mantenerse térmicamente estable.
-    button:
-      enable: true
-      label: Ver más información
-      link: "#"
-  - title: Calentamiento Eléctrico de tanques
-    images:
-    - images/calentador_fluidos.jpeg
-    content: Promueve la seguridad ya que los calentadores eléctricos no utilizan gas, reduciendo el riesgo de fuego. Más ecológicos, el calentador eléctrico no emite ningún tipo de gas o contaminante a la atmósfera. Te permite un mejor Control con la capacidad de establecer la temperatura del agua con la exactitud deseada y mantenerla con la misma precisión durante su uso. el presente proceso se basa en un método indirecto de calentamiento, ya que la fuente primaria de calor no esta en contacto directo con el fluido final a calentar.
-    button:
-      enable: true
-      label: Ver más información
-      link: "#"
-  - title: Energía solar eléctrica
-    images:
-    - images/energia_solar.jpg
-    content: El empleo de paneles solares cómo energía verde para suministrar energía eléctrica en corriente alterna, y que trabajan en paralelo con la red de distribución, a viviendas unifamiliares, negocios, edificios comerciales e industriales
-    button:
-      enable: true
-      label: Ver más información
-      link: "#"
+    - "/images/termografia.jpeg"
+  image_weight: 2
+  background: bg-white
+  text: dark
+  content: "Ofrecemos las soluciones necesarias para la industria en general con productos de desarrollo propio o como integradores. Control Industrial, Calefacción de fluidos en reposo o en circulación, Automatización y provisión de instrumentos de medición."
+  button:
+    enable: false
+    label: Ver más información
+    link: "#"
+  items:
+    - title: Instrumentación
+      image: images/instrumentacion.jpg
+      content: Tecnotrol ofrece provisión, montaje y puesta en marcha de tendidos de cintas calefactores en cañerías, válvulas e instrumentos, adecuadas a las necesidades del proceso que necesite mantenerse térmicamente estable.
+      button:
+        enable: true
+        label: Ver más información
+        link: "#"
+    - title: C.O.V.U.N
+      image: images/covac.png
+      content: Tecnotrol ofrece provisión, montaje y puesta en marcha de tendidos de cintas calefactores en cañerías, válvulas e instrumentos, adecuadas a las necesidades del proceso que necesite mantenerse térmicamente estable.
+      button:
+        enable: true
+        label: Ver más información
+        link: "#"
+    - title: Diagnóstico Termográfico
+      image: images/termografia.jpeg
+      content: Tecnotrol ofrece provisión, montaje y puesta en marcha de tendidos de cintas calefactores en cañerías, válvulas e instrumentos, adecuadas a las necesidades del proceso que necesite mantenerse térmicamente estable.
+      button:
+        enable: true
+        label: Ver más información
+        link: "#"
 premios:
   enable: true
   title: Ganadores premio Tenaris 2007
