@@ -10,53 +10,54 @@ title = "Tecnotrol"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
-identifier = "energias renovables"
-name = "Energías Renovables"
+identifier = "quienes-somos"
+name = "Quienes somos"
+weight = 3
+[[menu.main]]
+identifier = "productos"
+name = "Productos"
 weight = 1
 [[menu.main]]
-identifier = "industria"
-name = "Industria"
+identifier = "servicios"
+name = "Servicios"
 weight = 2
-[[menu.main]]
-identifier = "Nosotros"
-name = "Nosotros"
-weight = 3
 [[menu.footer_left]]
-URL = "#"
-name = "About Us"
+URL = "empresa"
+name = "Empresa"
 [[menu.footer_left]]
-URL = "#"
-name = "Quick Start"
+URL = "proyectos-ejecutados"
+name = "Proyectos Ejecutados"
 [[menu.footer_left]]
-URL = "pricing"
-name = "Pricing"
+URL = "politicas"
+name = "Políticas"
 [[menu.footer_middle]]
-URL = "pricing"
-name = "Pricing"
+URL = "covun"
+name = "C.O.V.U.N"
 [[menu.footer_middle]]
-URL = "#"
-name = "Platform"
+URL = "productos"
+name = "Productos"
 [[menu.footer_middle]]
 URL = "#"
-name = "Features"
+name = "Diagnostico Termográfico"
+[[menu.footer_middle]]
+URL = "#"
+name = "Obras y Servicios"
+[[menu.footer_middle]]
+URL = "energias-renovables"
+name = "Energías Renovables"
 [[menu.footer_right]]
-URL = "privacy-policy"
-name = "Privacy Policy"
-[[menu.footer_right]]
-URL = "terms-conditions"
-name = "Terms & Conditions"
-[[menu.footer_right]]
-URL = "faq"
-name = "FAQ"
+URL = "contactanos"
+name = "Contactanos"
+
 [params]
 author = "Themefisher"
 contact_form_action = "#"
 copyright = "By Federico Santana, template from Themefisher"
 description = "This is meta description"
 footer_content = ""
-footer_menu_left = "Nosotros"
+footer_menu_left = "Quienes somos"
 footer_menu_middle = "Productos"
-footer_menu_right = "Algo más"
+footer_menu_right = "Contáctanos"
 logo = "images/fede.png"
 logo_width = "200px"
 [params.navigation_button]
