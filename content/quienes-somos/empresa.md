@@ -10,7 +10,7 @@ type: nosotros/empresa
 draft: false
 menu:
   main:
-    parent: "Nosotros"
+    parent: "quienes-somos"
     weight: 1
 
 banner:

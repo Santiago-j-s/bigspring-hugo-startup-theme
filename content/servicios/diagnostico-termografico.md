@@ -1,15 +1,18 @@
 ---
-title: "Bombeo Solar"
+title: "Diagnóstico termográfico"
 date: 2020-04-18T10:07:21+06:00
 # post image
 image: "images/blog/post-1.jpg"
 # meta description
 description: "This is meta description"
-type: energias-renovables/bombeo-solar
+type: servicios/Diagnostico-termografico
 # post draft
 draft: false
-sectionTitle: "Componentes"
-
+sectionTitle: "Diagnóstico termográfico"
+menu:
+  main:
+    parent: "servicios"
+    weight: 1
 banner:
   title: Bombeo Solar
   title_weight: 1

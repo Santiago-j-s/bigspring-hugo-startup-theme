@@ -5,13 +5,13 @@ date: 2020-04-18T10:07:21+06:00
 image: "images/blog/post-1.jpg"
 # meta description
 description: "This is meta description"
-type: industria/calentamiento-de-fluidos
+type: productos/calentamiento-de-fluidos
 # post draft
 draft: false
 sectionTitle: "Calentamiento de Fluidos"
 menu:
   main:
-    parent: "industria"
+    parent: "productos"
     weight: 2
 banner:
   title: Calentamiento de fluidos

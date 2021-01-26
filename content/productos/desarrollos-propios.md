@@ -1,20 +1,20 @@
 ---
-title: "Productos"
+title: "Desarrollos Propios"
 date: 2020-04-18T10:07:21+06:00
 # post image
 image: "images/blog/post-1.jpg"
 # meta description
 description: "This is meta description"
-type: industria/productos
+type: productos/desarrollos-propios
 # post draft
 draft: false
-sectionTitle: "Productos"
+sectionTitle: "Desarrollos Propios"
 menu:
   main:
-    parent: "industria"
+    parent: "productos"
     weight: 2
 banner:
-  title: Productos
+  title: Desarrollos propios
   title_weight: 1
   image: /images/productos.svg
   image_weight: 2
