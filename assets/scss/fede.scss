@@ -9,6 +9,10 @@
       fill: $primary-color;
       display: inline-block;
     }
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
 .grayscale{
