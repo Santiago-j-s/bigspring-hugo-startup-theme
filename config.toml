@@ -10,17 +10,21 @@ title = "Tecnotrol"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
-identifier = "quienes-somos"
-name = "Quienes somos"
-weight = 3
+identifier = "servicios"
+name = "Obras y Servicios"
+weight = 1
 [[menu.main]]
 identifier = "productos"
 name = "Productos"
-weight = 1
-[[menu.main]]
-identifier = "servicios"
-name = "Servicios"
 weight = 2
+[[menu.main]]
+identifier = "energia"
+name = "Energía"
+weight = 3
+[[menu.main]]
+identifier = "quienes-somos"
+name = "Quienes somos"
+weight = 4
 [[menu.footer_left]]
 URL = "empresa"
 name = "Empresa"

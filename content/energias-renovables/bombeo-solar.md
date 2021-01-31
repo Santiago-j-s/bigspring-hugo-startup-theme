@@ -9,6 +9,10 @@ type: energias-renovables/bombeo-solar
 # post draft
 draft: false
 sectionTitle: "Componentes"
+menu:
+  main:
+    parent: "energia"
+    weight: 2
 
 banner:
   title: Bombeo Solar

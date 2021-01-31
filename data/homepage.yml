@@ -4,12 +4,12 @@ feature:
   title: Obras y Servicios
   feature_item:
   - name: Calentamiento de fluidos
-    link: "#"
+    link: "/productos/calentamiento-de-fluidos"
     svg: calentamiento_fluidos.svg
     content: Soluciones eficientes para el acondicionamiento térmico
       de fluidos, especialmente los vinculados a la industria petrolífica
   - name: termografía
-    link: "#"
+    link: "/servicios/termografia"
     svg: termografia.svg
     content: Servicio de fotografías termográficas para ver condiciones de funcionamiento
   - name: Obras y servicios
