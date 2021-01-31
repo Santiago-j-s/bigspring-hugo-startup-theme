@@ -1,16 +1,16 @@
 ---
 feature:
   enable: true
-  title: Qué hacemos
+  title: Obras y Servicios
   feature_item:
   - name: Calentamiento de fluidos
     link: "#"
     svg: calentamiento_fluidos.svg
     content: Soluciones eficientes para el acondicionamiento térmico
       de fluidos, especialmente los vinculados a la industria petrolífica
-  - name: diagnóstico termográfico
+  - name: termografía
     link: "#"
-    svg: diagnostico_termografico.svg
+    svg: termografia.svg
     content: Servicio de fotografías termográficas para ver condiciones de funcionamiento
   - name: Obras y servicios
     link: "#"
@@ -50,7 +50,7 @@ bigSection:
         enable: true
         label: Ver más información
         link: "#"
-    - title: Diagnóstico Termográfico
+    - title: Termografía
       image: images/termografia.jpeg
       content: Tecnotrol ofrece provisión, montaje y puesta en marcha de tendidos de cintas calefactores en cañerías, válvulas e instrumentos, adecuadas a las necesidades del proceso que necesite mantenerse térmicamente estable.
       button:

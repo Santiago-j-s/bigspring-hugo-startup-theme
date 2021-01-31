@@ -38,7 +38,7 @@ URL = "productos"
 name = "Productos"
 [[menu.footer_middle]]
 URL = "#"
-name = "Diagnostico Termográfico"
+name = "Termografía"
 [[menu.footer_middle]]
 URL = "#"
 name = "Obras y Servicios"
