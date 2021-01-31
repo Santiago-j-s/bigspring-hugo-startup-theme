@@ -22,11 +22,12 @@ feature:
     svg: energia-renovable.svg
     content: Proveemos soluciones orientadas al uso de energías renovables
 bigSection:
-  title: Industria
+  title: Energías Renovables
   title_weight: 1
   images:
-    - "/images/covac.png"
-    - "/images/termografia.jpeg"
+    - images/energia_solar.jpg
+    - images/banner_bombeo_solar.png
+    - images/energia-eolica.svg
   image_weight: 2
   background: bg-white
   text: dark
