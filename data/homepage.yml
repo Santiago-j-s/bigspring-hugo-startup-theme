@@ -4,17 +4,21 @@ feature:
   title: Qué hacemos
   feature_item:
   - name: Calentamiento de fluidos
+    link: "#"
     svg: calentamiento_fluidos.svg
     content: Soluciones eficientes para el acondicionamiento térmico
       de fluidos, especialmente los vinculados a la industria petrolífica
   - name: diagnóstico termográfico
+    link: "#"
     svg: diagnostico_termografico.svg
     content: Servicio de fotografías termográficas para ver condiciones de funcionamiento
   - name: Obras y servicios
+    link: "#"
     svg: obras_y_servicios.svg
     content: Diseño de sistemas de automatización,
       medición y control de procesos
   - name: Energías Renovables
+    link: "#"
     svg: energia-renovable.svg
     content: Proveemos soluciones orientadas al uso de energías renovables
 bigSection:
