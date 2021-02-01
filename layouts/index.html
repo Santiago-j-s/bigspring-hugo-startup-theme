@@ -42,30 +42,7 @@
 
 <!-- feature -->
 {{ if site.Data.homepage.feature.enable }}
-{{ with site.Data.homepage.feature }}
-<section class="section bg-light">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-      </div>
-      {{ range .feature_item }}
-      <div class="col-md-6 col-sm-6 mb-4">
-        <div class="feature-card text-center">
-          <div class="container mb-3">
-          {{$site:= printf "./static/icons/%s" .svg}}
-          
-          {{ readFile $site | replaceRE "fill=\"[a-zA-Z0-9#(),]+\"" "" | replaceRE "<svg" "<svg class=\"svg-icon\" width=\"30px\" height=\"30px\"" | safeHTML}} <!-- Si no existe no va a compilar nada, arreglar eso. -->
-          </div>
-          <h4 class="mb-2">{{ .name | title }}</h4>
-          <p>{{ .content | markdownify }}</p>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
+  {{ partial "feature-card.html" site.Data.homepage.feature}}
 {{ end }}
 <!-- /feature -->
 

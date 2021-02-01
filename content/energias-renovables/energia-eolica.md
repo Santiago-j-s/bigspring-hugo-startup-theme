@@ -8,6 +8,10 @@ description: "This is meta description"
 type: energias-renovables/energia-eolica
 # post draft
 draft: false
+menu:
+  main:
+    parent: "energia"
+    weight: 1
 
 
 banner:

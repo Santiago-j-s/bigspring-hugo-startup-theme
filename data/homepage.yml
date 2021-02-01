@@ -1,28 +1,33 @@
 ---
 feature:
   enable: true
-  title: Qué hacemos
+  title: Obras y Servicios
   feature_item:
   - name: Calentamiento de fluidos
+    link: "/productos/calentamiento-de-fluidos"
     svg: calentamiento_fluidos.svg
     content: Soluciones eficientes para el acondicionamiento térmico
       de fluidos, especialmente los vinculados a la industria petrolífica
-  - name: diagnóstico termográfico
-    svg: diagnostico_termografico.svg
+  - name: termografía
+    link: "/servicios/termografia"
+    svg: termografia.svg
     content: Servicio de fotografías termográficas para ver condiciones de funcionamiento
   - name: Obras y servicios
+    link: "#"
     svg: obras_y_servicios.svg
     content: Diseño de sistemas de automatización,
       medición y control de procesos
   - name: Energías Renovables
+    link: "#"
     svg: energia-renovable.svg
     content: Proveemos soluciones orientadas al uso de energías renovables
 bigSection:
-  title: Industria
+  title: Energías Renovables
   title_weight: 1
   images:
-    - "/images/covac.png"
-    - "/images/termografia.jpeg"
+    - images/energia_solar.jpg
+    - images/banner_bombeo_solar.png
+    - images/energia-eolica.svg
   image_weight: 2
   background: bg-white
   text: dark
@@ -32,27 +37,18 @@ bigSection:
     label: Ver más información
     link: "#"
   items:
-    - title: Instrumentación
-      image: images/instrumentacion.jpg
+    - title: Energía Solar
+      image: images/energia_solar.jpg
       content: Tecnotrol ofrece provisión, montaje y puesta en marcha de tendidos de cintas calefactores en cañerías, válvulas e instrumentos, adecuadas a las necesidades del proceso que necesite mantenerse térmicamente estable.
-      button:
-        enable: true
-        label: Ver más información
-        link: "#"
-    - title: C.O.V.U.N
-      image: images/covac.png
+      link: "/energias-renovables/energia-solar"
+    - title: Bombeo Solar
+      image: images/banner_bombeo_solar.png
       content: Tecnotrol ofrece provisión, montaje y puesta en marcha de tendidos de cintas calefactores en cañerías, válvulas e instrumentos, adecuadas a las necesidades del proceso que necesite mantenerse térmicamente estable.
-      button:
-        enable: true
-        label: Ver más información
-        link: "#"
-    - title: Diagnóstico Termográfico
-      image: images/termografia.jpeg
+      link: "/energias-renovables/bombeo-solar"
+    - title: Energía Eólica
+      image: images/energia-eolica.svg
       content: Tecnotrol ofrece provisión, montaje y puesta en marcha de tendidos de cintas calefactores en cañerías, válvulas e instrumentos, adecuadas a las necesidades del proceso que necesite mantenerse térmicamente estable.
-      button:
-        enable: true
-        label: Ver más información
-        link: "#"
+      link: "/energias-renovables/energia-eolica"
 premios:
   enable: true
   title: Ganadores premio Tenaris 2007
