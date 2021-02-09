@@ -26,8 +26,8 @@ bigSection:
   title_weight: 1
   images:
     - images/energia_solar.jpg
-    - images/banner_bombeo_solar.png
-    - images/energia-eolica.svg
+    - images/politicas_ambiente.svg
+    - images/WindTurbine.svg
   image_weight: 2
   background: bg-white
   text: dark
