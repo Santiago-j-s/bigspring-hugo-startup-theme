@@ -4,32 +4,38 @@
 }
 
 .feature-card {
-    position: relative;
+  position: relative;
 
-    svg {
-      color: $primary-color;
-      fill: $primary-color;
-      display: inline-block;
-    }
+  svg {
+    color: $primary-color;
+    fill: $primary-color;
+    display: inline-block;
+  }
 
-    a {
-      text-decoration: none;
-      color: inherit;
+  a {
+    text-decoration: none;
+    color: inherit;
 
-      &::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-      }
-    }
-
-    &:hover {
-      transform: scale(1.05);
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
     }
   }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &--section {
+    @extend .feature-card;
+    min-height: 450px;
+    margin: 0 5px;
+  }
+}
 
 .grayscale{
   filter: grayscale(100%);

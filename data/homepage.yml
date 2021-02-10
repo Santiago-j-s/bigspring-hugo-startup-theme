@@ -39,15 +39,15 @@ bigSection:
   items:
     - title: Energía Solar
       image: images/energia_solar.jpg
-      content: Tecnotrol ofrece provisión, montaje y puesta en marcha de tendidos de cintas calefactores en cañerías, válvulas e instrumentos, adecuadas a las necesidades del proceso que necesite mantenerse térmicamente estable.
+      content: Aprovechá la fuente de energía inagotable, el sol, y cuida el medio ambiente
       link: "/energias-renovables/energia-solar"
     - title: Bombeo Solar
       image: images/banner_bombeo_solar.png
-      content: Tecnotrol ofrece provisión, montaje y puesta en marcha de tendidos de cintas calefactores en cañerías, válvulas e instrumentos, adecuadas a las necesidades del proceso que necesite mantenerse térmicamente estable.
+      content: Bomba hidraulica alimentada de forma directa por paneles solares fotovoltaicos, y disfrutá del agua todos los días del año, sin instalaciones fijas, libres de mantenimiento.
       link: "/energias-renovables/bombeo-solar"
     - title: Energía Eólica
       image: images/WindTurbine.svg
-      content: Tecnotrol ofrece provisión, montaje y puesta en marcha de tendidos de cintas calefactores en cañerías, válvulas e instrumentos, adecuadas a las necesidades del proceso que necesite mantenerse térmicamente estable.
+      content: Aprovechá la energía que ofrece el viento con nuestros aerogeneradores completamente aptos para ser utilizados en condiciones climáticas extremas, con un excelente rendimiento que satisface los requerimientos básicos de una vivienda rural en 220V o 240V
       link: "/energias-renovables/energia-eolica"
 premios:
   enable: true
