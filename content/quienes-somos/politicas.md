@@ -5,7 +5,7 @@ date: 2020-04-18T10:07:21+06:00
 image: "images/blog/post-1.jpg"
 # meta description
 description: "This is meta description"
-type: quienes-somos/politicas
+type: nosotros/empresa
 # post draft
 draft: false
 menu:
