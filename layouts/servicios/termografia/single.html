@@ -3,12 +3,8 @@
     {{ partial "banner.html" . }}
 {{ end }}
 
-<section class="section bg-white">
-        <div class="container">
-            <h2 class="mb-4"> {{.Params.sectionTitle}} </h2>
-        </div>
-        {{ partial "description-list.html" .Params.services }}
-</section>
+{{ with .Params.list}}
+  {{ partial "banner-list.html" . }}
+{{ end }}
 
-{{ partial "table.html" .Params.table }}
 {{ end }}
