@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{ with .Params.banner }}
+    {{ partial "banner.html" . }}
+{{ end }}
+    <div class="container">
+    <h3 class="title"> {{.Params.info}}</h3>
+    </div>
+{{ end }}

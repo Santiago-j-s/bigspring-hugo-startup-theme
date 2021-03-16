@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ with .Params.banner }}
+    {{ partial "banner.html" . }}
+{{ end }}
+{{ with .Params.banner2}}
+{{ partial "banner.html" . }}
+{{ end }}
+
+{{ partial "testimonial.html"}}
+{{ end }}
