@@ -1,7 +1,7 @@
 ---
 feature:
   enable: true
-  title: Obras y Servicios
+  title: ¿Qué hacemos?
   feature_item:
   - name: Calentamiento de fluidos
     link: "/productos/calentamiento-de-fluidos"
@@ -12,15 +12,6 @@ feature:
     link: "/servicios/termografia"
     svg: termografia.svg
     content: Servicio de fotografías termográficas para ver condiciones de funcionamiento
-  - name: Obras y servicios
-    link: "#"
-    svg: obras_y_servicios.svg
-    content: Diseño de sistemas de automatización,
-      medición y control de procesos
-  - name: Energías Renovables
-    link: "#"
-    svg: energia-renovable.svg
-    content: Proveemos soluciones orientadas al uso de energías renovables
 bigSection:
   title: Energías Renovables
   title_weight: 1
@@ -46,7 +37,7 @@ bigSection:
       content: Bomba hidraulica alimentada de forma directa por paneles solares fotovoltaicos, y disfrutá del agua todos los días del año, sin instalaciones fijas, libres de mantenimiento.
       link: "/energias-renovables/bombeo-solar"
     - title: Energía Eólica
-      image: images/WindTurbine.svg
+      image: images/molinos.jpg
       content: Aprovechá la energía que ofrece el viento con nuestros aerogeneradores completamente aptos para ser utilizados en condiciones climáticas extremas, con un excelente rendimiento que satisface los requerimientos básicos de una vivienda rural en 220V o 240V
       link: "/energias-renovables/energia-eolica"
 premios:

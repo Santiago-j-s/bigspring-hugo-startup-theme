@@ -2,9 +2,9 @@
 {{ with .Params.banner }}
     {{ partial "banner.html" . }}
 {{ end }}
-{{ with .Params.banner2}}
-{{ partial "banner.html" . }}
+
+{{ with .Params.list}}
+  {{ partial "banner-list.html" . }}
 {{ end }}
 
-{{ partial "testimonial.html"}}
 {{ end }}
