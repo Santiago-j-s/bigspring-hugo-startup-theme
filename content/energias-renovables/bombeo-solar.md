@@ -11,8 +11,9 @@ draft: false
 sectionTitle: "Componentes"
 menu:
   main:
-    parent: "energias renovables"
+    parent: "energia"
     weight: 2
+
 banner:
   title: Bombeo Solar
   title_weight: 1

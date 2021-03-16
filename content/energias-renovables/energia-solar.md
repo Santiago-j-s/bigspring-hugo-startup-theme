@@ -10,8 +10,9 @@ type: energias-renovables/energia-solar
 draft: false
 menu:
   main:
-    parent: "energias renovables"
+    parent: "energia"
     weight: 3
+
 banner:
   title: Energía Solar
   title_weight: 1

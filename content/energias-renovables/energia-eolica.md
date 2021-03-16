@@ -10,13 +10,14 @@ type: energias-renovables/energia-eolica
 draft: false
 menu:
   main:
-    parent: "energias renovables"
+    parent: "energia"
     weight: 1
+
 
 banner:
   title: Energía Eólica
   title_weight: 1
-  image: /images/WindTurbine.svg
+  image: /images/molinos.jpg
   image_weight: 2
   content: Aprovechá la energía que ofrece el viento con nuestros aerogeneradores de _**industria argentina**_ completamente aptos para ser utilizados en condiciones climáticas extremas, con un excelente rendimiento que satisface los requerimientos de una vivienda rural
   background: bg-dark
