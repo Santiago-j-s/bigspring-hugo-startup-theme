@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: content/quienes-somos
+  label: Quienes somos
+  create: all
+  match: "**/*"
+- type: heading
+  label: Quienes Somos
 - type: heading
   label: Homepage
 - type: document
