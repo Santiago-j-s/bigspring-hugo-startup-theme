@@ -9,9 +9,6 @@ sections:
 - type: document
   path: data/homepage.yml
   label: Homepage Data
-- type: document
-  path: content/blog/_index.md
-  label: Blog Page
 - type: directory
   path: content/blog
   label: Blog Post
