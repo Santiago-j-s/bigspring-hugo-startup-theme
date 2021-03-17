@@ -9,14 +9,6 @@ sections:
 - type: document
   path: data/homepage.yml
   label: Homepage Data
-- type: directory
-  path: content/blog
-  label: Blog Post
-  create: documents
-  match: "**/*"
-  exclude: _index.md
-  templates:
-  - post
 - type: heading
   label: Others Page
 - type: document
