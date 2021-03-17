@@ -1,15 +1,10 @@
 ---
-title: "Contáctanos"
-subtitle: ""
-# meta description
-description: "This is meta description"
-draft: false
-menu:
-  main:
-    title: "Nosotros"
-    weight: 3
----
+title: Contáctanos
+subtitle: ''
+description: Ya sea quieras agregar energía verde a tu hogar o proveer a tu empresa
+  de nuevas soluciones ecólogicas y renovables
 
+---
 ### ¿dudas? comunicate con nosotros.
 Ya sea quieras agregar energía verde a tu hogar o proveer a tu empresa de nuevas soluciones ecólogicas y renovables, no dudes en mandar un mensaje, si está interesado en trabajar con nosotros mande un mail a rrhh@tecnotrol.com
 
