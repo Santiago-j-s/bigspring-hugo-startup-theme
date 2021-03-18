@@ -8,7 +8,7 @@ title = "Bombeo Solar"
 type = "energias-renovables/bombeo-solar"
 [menu]
 [menu.main]
-parent = "Energía"
+parent = "energia"
 weight = 30
 [banner]
 background = "bg-dark"
