@@ -4,11 +4,15 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Servicios
 - type: directory
   path: content/servicios
   label: Servicios
   create: all
   match: "**/*"
+- type: heading
+  label: Productos
 - type: directory
   path: content/productos
   label: Productos
