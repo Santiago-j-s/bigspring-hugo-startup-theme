@@ -110,3 +110,17 @@ fields:
   - type: list
     name: texts
     label: texts
+- name: probando
+  type: field_group
+  config: {}
+  fields:
+  - name: probando
+    type: blocks
+    label: probando
+    template_types:
+    - termografia
+    - post
+    config:
+      min: 
+      max: 
+  label: Probando
