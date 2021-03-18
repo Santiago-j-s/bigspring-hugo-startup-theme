@@ -4,7 +4,7 @@ description = "This is meta description"
 image = "/images/tecno_1500.jpeg"
 sectionTitle = "Componentes"
 title = "Bombeo Solar"
-type = "servicios/bombeo-solar"
+type = "energias-renovables/bombeo-solar"
 [banner]
 background = "bg-dark"
 content = "Bomba hidraulica alimentada de forma directa por paneles solares fotovoltaicos, disfrutá del agua todos los días del año, sin instalaciones  fijas, libres de mantenimiento."
