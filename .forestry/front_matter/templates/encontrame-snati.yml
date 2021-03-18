@@ -1,4 +1,81 @@
 ---
 label: Encontrame Snati
 hide_body: true
-fields: []
+fields:
+- name: color
+  type: select
+  default: light
+  config:
+    required: false
+    options:
+    - dark
+    - light
+    - blue
+    - red
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color
+  description: Aca escoges el color del fondo
+- name: sorteable_list
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+    source:
+      type: simple
+  label: Sorteable list
+  description: Una sorteable list
+  showOnly:
+    value: dark
+- name: color_picker
+  type: color
+  label: COlor picker
+  config:
+    required: false
+    color_format: Hex
+- name: probando
+  type: file
+  config:
+    maxSize: 64
+  label: Probando
+- name: aver
+  type: blocks
+  label: Aver
+  template_types:
+  - politicas
+  - nosotros
+  - banner
+  config:
+    min: 
+    max: 
+- name: template
+  type: include
+  config: {}
+  template: post
+  label: Template
+- name: field_group
+  type: field_group
+  config: {}
+  fields:
+  - name: repeteable_field_group
+    type: field_group_list
+    fields:
+    - name: l_k_l_k4
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: l;k'l;k4
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Repeteable field group
+  label: Field Group
