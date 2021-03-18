@@ -21,13 +21,10 @@ fields:
   name: sectionTitle
   label: sectionTitle
 - name: banner
-  type: blocks
-  label: Banner
-  template_types:
-  - banner
-  config:
-    min: 
-    max: 
+  type: include
+  config: {}
+  template: banner
+  label: banner
 - type: field_group
   name: list
   label: list
