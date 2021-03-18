@@ -38,10 +38,10 @@ sections:
   path: data/homepage.yml
   label: Pagina principal
 - type: heading
-  label: Others Page
+  label: Otras paginas
 - type: document
   path: content/contact/_index.md
-  label: Contact
+  label: Contactanos
 - type: document
   path: content/terms-conditions/_index.md
   label: Terms & Conditions
