@@ -30,3 +30,5 @@ fields:
   config: {}
   template: post
   label: Probando4
+pages:
+- content/servicios/fede.md
