@@ -179,3 +179,12 @@ fields:
     - type: text
       name: title
       label: title
+- name: block
+  type: blocks
+  label: Block
+  template_types: []
+  config:
+    min: 
+    max: 
+  description: Algo
+  hidden: false
