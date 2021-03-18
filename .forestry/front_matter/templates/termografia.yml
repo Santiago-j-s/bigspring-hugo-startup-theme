@@ -20,44 +20,14 @@ fields:
 - type: text
   name: sectionTitle
   label: sectionTitle
-- type: field_group
-  name: banner
-  label: banner
-  fields:
-  - type: text
-    name: title
-    label: title
-  - type: text
-    name: title_weight
-    label: title_weight
-  - type: file
-    name: image
-    label: image
-  - type: text
-    name: image_weight
-    label: image_weight
-  - type: textarea
-    name: content
-    label: content
-  - type: text
-    name: background
-    label: background
-  - type: text
-    name: text
-    label: text
-  - type: field_group
-    name: button
-    label: button
-    fields:
-    - type: boolean
-      name: enable
-      label: enable
-    - type: text
-      name: label
-      label: label
-    - type: text
-      name: link
-      label: link
+- name: banner
+  type: blocks
+  label: Banner
+  template_types:
+  - banner
+  config:
+    min: 
+    max: 
 - type: field_group
   name: list
   label: list
