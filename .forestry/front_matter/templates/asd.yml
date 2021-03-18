@@ -101,3 +101,5 @@ fields:
     - type: list
       name: row
       label: row
+pages:
+- content/servicios/bombeo-solar.md
