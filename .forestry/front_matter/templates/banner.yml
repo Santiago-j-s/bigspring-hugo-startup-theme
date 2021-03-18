@@ -27,9 +27,6 @@ fields:
   - type: text
     name: title
     label: title
-  - type: number
-    name: title_weight
-    label: title_weight
   - type: file
     name: image
     label: image
@@ -42,6 +39,7 @@ fields:
   - type: text
     name: background
     label: background
+    description: Color de fondo, puede ser bg-white o bg-dark
   - type: text
     name: text
     label: text
@@ -51,53 +49,23 @@ fields:
     fields:
     - type: boolean
       name: enable
-      label: enable
+      label: Habilitar
     - type: text
       name: label
       label: label
     - type: text
       name: link
       label: link
-- type: field_group_list
-  name: services
-  label: services
-  fields:
-  - type: text
-    name: title
-    label: title
-  - type: image_gallery
-    name: images
-    label: images
-  - type: textarea
-    name: content
-    label: content
-  - type: field_group
-    name: button
-    label: button
-    fields:
-    - type: boolean
-      name: enable
-      label: enable
-    - type: text
-      name: label
-      label: label
-    - type: text
-      name: link
-      label: link
-- type: field_group
-  name: table
-  label: table
-  fields:
-  - type: text
-    name: title
-    label: title
-  - type: list
-    name: cols
-    label: cols
-  - type: field_group_list
-    name: rows
-    label: rows
-    fields:
-    - type: list
-      name: row
-      label: row
+  - name: title-weight
+    type: number
+    label: title weight
+    description: El peso indica si el elemento se va a mostrar antes o despues, peso
+      1 significa que intentara mostrarse primero. Si dos pesos son iguales, hay un
+      orden por defecto.
+    default: 1
+    required: true
+    config:
+      min: 1
+      max: 
+      step: 
+      required: true
