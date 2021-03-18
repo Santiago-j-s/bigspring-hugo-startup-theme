@@ -77,3 +77,5 @@ fields:
   - type: list
     name: texts
     label: texts
+pages:
+- content/servicios/termografia.md

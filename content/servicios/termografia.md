@@ -7,9 +7,9 @@ type: servicios/termografia
 sectionTitle: Termografía
 banner:
   title: TERMOGRAFIA
-  title_weight: "2"
+  title_weight: '2'
   image: "/images/TermografiaBanner.jpg"
-  image_weight: "1"
+  image_weight: '1'
   content: Nuevamente la empresa Tecnotrol S.R.L está lanzando su nuevo servicio de
     diagnostico por medio de imágenes termográficas. Una nueva oferta destinada a
     las empresas petroleras y eléctricas. <br><br> Una termografía es una imagen radiométrica
@@ -48,9 +48,9 @@ list:
     motores, etc. Dicha ejecución minimiza el riesgo de fallas de equipos y sus consecuencias.
     Al mismo tiempo permite al cliente ofrece una herramienta para el control de calidad
     de las reparaciones efectuadas.
-menu:
-  main:
-    parent: servicios
-    weight: 1
+content: ''
+textFirst: false
+background: ''
+text: ''
 
 ---
