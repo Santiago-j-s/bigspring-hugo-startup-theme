@@ -157,5 +157,3 @@ fields:
     - type: text
       name: link
       label: link
-pages:
-- content/servicios/titulo-principal.md
