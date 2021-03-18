@@ -33,10 +33,10 @@ sections:
   create: all
   match: "**/*"
 - type: heading
-  label: Homepage
+  label: Pagina principal
 - type: document
   path: data/homepage.yml
-  label: Homepage Data
+  label: Pagina principal
 - type: heading
   label: Others Page
 - type: document
