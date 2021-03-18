@@ -1,7 +1,6 @@
 +++
 date = 2021-03-10T03:00:00Z
 description = "This is meta description"
-draft = true
 image = "/images/tecno_1500.jpeg"
 sectionTitle = "Componentes"
 title = "Bombeo Solar"
