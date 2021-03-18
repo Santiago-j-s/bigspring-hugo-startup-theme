@@ -18,13 +18,13 @@ enable = true
 label = "Somethin"
 link = "arownd"
 [banner2]
-background = ""
-content = ""
-image = ""
-image_weight = nil
-text = ""
-title = ""
-title_weight = nil
+background = "bg-white"
+content = "Algo"
+image = "/images/proyectos_ejecutados.svg"
+image_weight = 1
+text = "dark"
+title = "Probando"
+title_weight = 2
 [list]
 background = "bg-white"
 enable = true
