@@ -55,8 +55,6 @@ sections:
   label: All Pages
   create: all
   match: "**/*"
-  templates:
-  - new-page
 - type: heading
   label: Configuration
 - type: document
