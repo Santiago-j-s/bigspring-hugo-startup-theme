@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Energia
 - type: directory
-  path: content/energias-renovables
+  path: content/energia
   label: Energias Renovables
   create: all
   match: "**/*"
