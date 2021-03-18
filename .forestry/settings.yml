@@ -11,6 +11,8 @@ sections:
   label: Servicios
   create: all
   match: "**/*"
+  templates:
+  - banner
 - type: heading
   label: Productos
 - type: directory
