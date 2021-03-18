@@ -1,0 +1,103 @@
+---
+label: Banner
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: text
+  name: description
+  label: description
+- type: text
+  name: type
+  label: type
+- type: text
+  name: sectionTitle
+  label: sectionTitle
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: number
+    name: title_weight
+    label: title_weight
+  - type: file
+    name: image
+    label: image
+  - type: number
+    name: image_weight
+    label: image_weight
+  - type: textarea
+    name: content
+    label: content
+  - type: text
+    name: background
+    label: background
+  - type: text
+    name: text
+    label: text
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+- type: field_group_list
+  name: services
+  label: services
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: image_gallery
+    name: images
+    label: images
+  - type: textarea
+    name: content
+    label: content
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: table
+  label: table
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: list
+    name: cols
+    label: cols
+  - type: field_group_list
+    name: rows
+    label: rows
+    fields:
+    - type: list
+      name: row
+      label: row
