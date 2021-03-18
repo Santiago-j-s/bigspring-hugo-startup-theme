@@ -1,0 +1,159 @@
+---
+label: Politicas
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: text
+  name: description
+  label: description
+- type: text
+  name: type
+  label: type
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: number
+    name: title_weight
+    label: title_weight
+  - type: file
+    name: image
+    label: image
+  - type: number
+    name: image_weight
+    label: image_weight
+  - type: textarea
+    name: content
+    label: content
+  - type: text
+    name: background
+    label: background
+  - type: text
+    name: text
+    label: text
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: list
+  label: list
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: background
+    label: background
+  - type: text
+    name: text
+    label: text
+  - type: number
+    name: text_weight
+    label: text_weight
+  - type: list
+    name: texts
+    label: texts
+  - type: field_group
+    name: image
+    label: image
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: number
+      name: weight
+      label: weight
+    - type: file
+      name: location
+      label: location
+- type: field_group
+  name: banner2
+  label: banner2
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: number
+    name: title_weight
+    label: title_weight
+  - type: file
+    name: image
+    label: image
+  - type: number
+    name: image_weight
+    label: image_weight
+  - type: text
+    name: background
+    label: background
+  - type: text
+    name: text
+    label: text
+  - type: textarea
+    name: content
+    label: content
+- type: field_group
+  name: list2
+  label: list2
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: background
+    label: background
+  - type: text
+    name: text
+    label: text
+  - type: number
+    name: text_weight
+    label: text_weight
+  - type: list
+    name: texts
+    label: texts
+  - type: field_group
+    name: image
+    label: image
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: number
+      name: weight
+      label: weight
+    - type: file
+      name: location
+      label: location
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
