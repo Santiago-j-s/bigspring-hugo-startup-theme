@@ -15,7 +15,7 @@ text = "Probando nuevamente"
 title = "Probando 123"
 title-weight = 1
 [banner.button]
-enable = true
+enable = false
 label = "El boton"
 link = "no se"
 
