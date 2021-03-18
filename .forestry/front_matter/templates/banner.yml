@@ -2,70 +2,65 @@
 label: Banner
 hide_body: true
 fields:
-- type: text
-  name: title
-  label: title
-- type: datetime
-  name: date
-  label: date
-- type: file
-  name: image
-  label: image
-- type: text
-  name: description
-  label: description
-- type: text
-  name: type
-  label: type
-- type: text
-  name: sectionTitle
-  label: sectionTitle
-- type: field_group
-  name: banner
-  label: banner
-  fields:
-  - type: text
-    name: title
-    label: title
-  - type: file
-    name: image
-    label: image
-  - type: number
-    name: image_weight
-    label: image_weight
-  - type: textarea
-    name: content
-    label: content
-  - type: text
-    name: background
-    label: background
-    description: Color de fondo, puede ser bg-white o bg-dark
-  - type: text
-    name: text
-    label: text
-  - type: field_group
-    name: button
-    label: button
-    fields:
-    - type: boolean
-      name: enable
-      label: Habilitar
-    - type: text
-      name: label
-      label: label
-    - type: text
-      name: link
-      label: link
-  - name: title-weight
-    type: number
-    label: title weight
-    description: El peso indica si el elemento se va a mostrar antes o despues, peso
-      1 significa que intentara mostrarse primero. Si dos pesos son iguales, hay un
-      orden por defecto.
-    default: 1
-    required: true
-    config:
-      min: 1
-      max: 
-      step: 
-      required: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titulo del banner
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Contenido
+  description: Contenido del banner, puede ser un parrafo chico.
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: imagen del banner
+  description: La imagen que pongas en el banner
+- name: textFirst
+  type: boolean
+  label: Texto primero
+  description: Si esta activado, primero se mostrara el texto.<br>Si esta desactivado,
+    primero se mostrara la imagen.
+  default: true
+- name: background
+  type: select
+  default: bg-dark
+  config:
+    required: false
+    options:
+    - bg-dark
+    - bg-white
+    - bg-gray
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color de fondo
+  description: Es el color de fondo que se vera, el texto se pondra automaticamente
+    del color necesario de acuerdo al fondo
+- name: text
+  type: select
+  default: light
+  config:
+    required: false
+    options:
+    - dark
+    - light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  hidden: false
+  label: Text
+  description: Color del texto
+  showOnly:
+    value: bg-gray
