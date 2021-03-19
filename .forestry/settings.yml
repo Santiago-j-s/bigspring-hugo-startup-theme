@@ -12,8 +12,7 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - termografia
-  - banner
+  - servicios
 - type: heading
   label: Productos
 - type: directory
