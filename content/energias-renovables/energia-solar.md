@@ -16,9 +16,7 @@ menu:
 banner:
   titleFirst: true
   title: Energía Solar
-  title_weight: 1
   image: /images/solar_energy_banner.svg
-  image_weight: 2
   content: Aprovechá la fuente de energía  inagotables, el sol, y cuida el medio ambiente
   background: bg-dark
   text: light

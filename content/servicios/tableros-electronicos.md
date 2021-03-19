@@ -12,9 +12,7 @@ menu:
 banner:
   titleFirst: true
   title: Tableros Electrónicos
-  title_weight: 1
   image: /images/TermografiaBanner.jpg
-  image_weight: 2
   content: "Nuevamente la empresa Tecnotrol S.R.L está lanzando su nuevo servicio de diagnostico por medio de imágenes termográficas. Una nueva oferta destinada a las empresas petroleras y eléctricas.
   <br><br>
   Una termografía es una imagen radiométrica de temperatura. Dicha imagen térmica, en instalaciones eléctricas, permite observar las condiciones de funcionamiento del objeto, a traves de la temperatura de superficie."

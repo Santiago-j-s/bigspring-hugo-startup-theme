@@ -16,9 +16,7 @@ menu:
 banner:
   titleFirst: true
   title: Proyectos Ejecutados
-  title_weight: 1
   image: /images/proyectos_ejecutados.svg
-  image_weight: 2
   content: "En Tecnotrol SRL tenemos una amplia trayectoria con una gran variedad de proyectos terminados para pequeñas y grandes empresas que le podrá dar una idea de la calidad que mantenemos en nuestra empresa"
   background: bg-dark
   text: light

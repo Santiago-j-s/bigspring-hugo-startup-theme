@@ -16,9 +16,7 @@ menu:
 banner:
   titleFirst: true
   title: Tecnotrol
-  title_weight: 1
   image: /images/nosotros.svg
-  image_weight: 2
   content: "Fundada en el año 1994 en la ciudad de Comodoro Rivadavia, se especializa en sistemas de automatización, instrumentación y control de procesos productivos. Además, fabrica y desarrolla soluciones vinculadas con las energías renovables.<br/><br/>
   La innovación en los procesos relacionados con las energías renovables hace que Tecnotrol sea unaempresa con un potencial tangible que se extiende por todo el país y otros lugares en el mundo.
   Tecnotrol es **energía a tu favor**."
@@ -31,9 +29,7 @@ banner:
 banner2:
   titleFirst: false
   title: Sobre nosotros
-  title_weight: 2
   image: /images/handshake.svg
-  image_weight: 1
   background: bg-gray
   text: dark
   content: "TECNOTROL SRL cuenta como principales clientes a las operadoras de yacimientos petroleros de la región y prestigiosas empresas contratistas, de ingeniería y de servicio públicos.

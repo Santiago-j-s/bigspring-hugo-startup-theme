@@ -16,9 +16,7 @@ menu:
 banner:
   titleFirst: true
   title: Calentamiento de fluidos
-  title_weight: 1
   image: /images/calentamiento-de-fluidos.svg
-  image_weight: 2
   content: Realizamos puesta en marcha y mantenimiento de distintos productos, especialmente de sensores para la industria petrolera
   background: bg-dark
   text: light
@@ -29,9 +27,7 @@ banner:
 banner2:
   titleFirst: true
   title: COVUN (acondicionador termico de fluidos)
-  title_weight: 2
   image: /images/covun.jpeg
-  image_weight: 1
   content: "Las bajas temperaturas reinantes en la región hacen dificultoso en muchas circunstancias, el movimiento del fluido a través de las tuberías.
   COVUN, representa una solución eficiente para el acondicionamiento térmico del petróleo, es natural, ecológico y adecuado a esas circunstancias. De bajo costo, salto térmico de hasta 40º C, bajos costos operativos y de mantenimiento, seguro y fácil de instalar, disminuye pérdidas de producción y ahorra en consumos de gas y productos químicos. De fácil operación y con diversas aplicaciones que lo convierten en una alternativa válida para resolver dificultades de alta viscosidad."
   background: bg-dark
@@ -79,9 +75,7 @@ list:
 banner:
   titleFirst: true
   title: Calentamiento de fluidos
-  title_weight: 1
   image: /images/calentamiento-de-fluidos.svg
-  image_weight: 2
   content: Realizamos puesta en marcha y mantenimiento de distintos productos, especialmente de sensores para la industria petrolera
   background: bg-dark
   text: light
@@ -92,9 +86,7 @@ banner:
 banner2:
   titleFirst: true
   title: COVUN (acondicionador termico de fluidos)
-  title_weight: 2
   image: /images/covun.jpeg
-  image_weight: 1
   content: "Las bajas temperaturas reinantes en la región hacen dificultoso en muchas circunstancias, el movimiento del fluido a través de las tuberías.
   COVUN, representa una solución eficiente para el acondicionamiento térmico del petróleo, es natural, ecológico y adecuado a esas circunstancias. De bajo costo, salto térmico de hasta 40º C, bajos costos operativos y de mantenimiento, seguro y fácil de instalar, disminuye pérdidas de producción y ahorra en consumos de gas y productos químicos. De fácil operación y con diversas aplicaciones que lo convierten en una alternativa válida para resolver dificultades de alta viscosidad."
   background: bg-dark
@@ -106,9 +98,7 @@ banner2:
 banner3:
   titleFirst: true
   title: Calentamiento eléctrico
-  title_weight: 1
   image: /images/calentamiento-electrico-tanques.jpeg
-  image_weight: 2
   content: "El presente proceso se basa en un método indirecto de calentamiento, ya que la fuente primaria de calor no esta en contacto directo con el fluido final a calentar.
   El principio de funcionamiento consiste en calentar a través de resistencias calefactoras un fluido térmico dentro de un “caño camisa” que atraviesa el tanque a calentar. El calor generado dentro del “caño camisa” es transferido de forma directa al fluido del tanque
 

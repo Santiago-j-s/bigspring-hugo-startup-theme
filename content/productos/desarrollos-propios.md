@@ -16,9 +16,7 @@ menu:
 banner:
   titleFirst: true
   title: Desarrollos propios
-  title_weight: 1
   image: /images/productos.svg
-  image_weight: 2
   content: Contamos con productos para el control y ejecución  de distintos fenómenos que faciliten  el trabajo humano
   background: bg-dark
   text: light
