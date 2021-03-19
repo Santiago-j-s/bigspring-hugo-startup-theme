@@ -15,6 +15,7 @@ menu:
 
 
 banner:
+  titleFirst: true
   title: Energía Eólica
   title_weight: 1
   image: /images/molinos.jpg

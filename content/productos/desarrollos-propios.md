@@ -14,6 +14,7 @@ menu:
     parent: "productos"
     weight: 2
 banner:
+  titleFirst: true
   title: Desarrollos propios
   title_weight: 1
   image: /images/productos.svg

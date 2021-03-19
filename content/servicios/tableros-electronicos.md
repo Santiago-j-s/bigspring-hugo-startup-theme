@@ -10,6 +10,7 @@ menu:
     weight: 5
 
 banner:
+  titleFirst: true
   title: Tableros Electrónicos
   title_weight: 1
   image: /images/TermografiaBanner.jpg

@@ -14,6 +14,7 @@ menu:
     weight: 3
 
 banner:
+  titleFirst: true
   title: Energía Solar
   title_weight: 1
   image: /images/solar_energy_banner.svg

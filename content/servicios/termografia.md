@@ -4,6 +4,7 @@ description: This is meta description
 type: servicios/termografia
 sectionTitle: Termografía
 banner:
+  titleFirst: true
   title: TERMOGRAFIA
   title_weight: '2'
   image: "/images/TermografiaBanner.jpg"

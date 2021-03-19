@@ -6,6 +6,7 @@ description: "This is meta description"
 draft: false
 
 banner:
+  titleFirst: true
   title: "Energía y Control Industrial"
   title_weight: 1
   image: /images/homePage.jpg

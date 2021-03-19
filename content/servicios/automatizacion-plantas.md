@@ -10,7 +10,9 @@ menu:
     weight: 2
 
 banner:
+  titleFirst: true
   title: Automatización de plantas
+  titleFirst: true
   title_weight: 1
   image: /images/TermografiaBanner.jpg
   image_weight: 2

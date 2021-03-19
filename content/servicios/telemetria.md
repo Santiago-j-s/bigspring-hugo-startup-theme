@@ -10,6 +10,7 @@ menu:
     weight: 6
 
 banner:
+  titleFirst: true
   title: Telemetría
   title_weight: 1
   image: /images/TermografiaBanner.jpg

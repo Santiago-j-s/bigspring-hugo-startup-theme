@@ -14,6 +14,7 @@ menu:
     weight: 2
 
 banner:
+  titleFirst: true
   title: Política de calidad
   title_weight: 1
   image: /images/politicas.svg

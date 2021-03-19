@@ -10,6 +10,7 @@ menu:
     weight: 4
 
 banner:
+  titleFirst: true
   title: Mantenimiento de plantas
   title_weight: 1
   image: /images/TermografiaBanner.jpg

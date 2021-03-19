@@ -14,6 +14,7 @@ menu:
     parent: "productos"
     weight: 2
 banner:
+  titleFirst: true
   title: Calentamiento de fluidos
   title_weight: 1
   image: /images/calentamiento-de-fluidos.svg
@@ -26,6 +27,7 @@ banner:
     label: folleto informativo en PDF
     link: covun.pdf
 banner2:
+  titleFirst: true
   title: COVUN (acondicionador termico de fluidos)
   title_weight: 2
   image: /images/covun.jpeg
@@ -75,6 +77,7 @@ list:
     weight: 2
     location: /images/check.svg
 banner:
+  titleFirst: true
   title: Calentamiento de fluidos
   title_weight: 1
   image: /images/calentamiento-de-fluidos.svg
@@ -87,6 +90,7 @@ banner:
     label: folleto informativo en PDF
     link: covun.pdf
 banner2:
+  titleFirst: true
   title: COVUN (acondicionador termico de fluidos)
   title_weight: 2
   image: /images/covun.jpeg
@@ -100,6 +104,7 @@ banner2:
     label: ¿Dudas? escribinos
     link: contact
 banner3:
+  titleFirst: true
   title: Calentamiento eléctrico
   title_weight: 1
   image: /images/calentamiento-electrico-tanques.jpeg

@@ -14,6 +14,7 @@ menu:
     weight: 1
 
 banner:
+  titleFirst: true
   title: Proyectos Ejecutados
   title_weight: 1
   image: /images/proyectos_ejecutados.svg

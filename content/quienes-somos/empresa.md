@@ -14,6 +14,7 @@ menu:
     weight: 1
 
 banner:
+  titleFirst: true
   title: Tecnotrol
   title_weight: 1
   image: /images/nosotros.svg
@@ -23,12 +24,12 @@ banner:
   Tecnotrol es **energía a tu favor**."
   background: bg-dark
   text: light
-
   button:
     enable: false 
     label: ¿Dudas? escribinos
     link: contact
 banner2:
+  titleFirst: false
   title: Sobre nosotros
   title_weight: 2
   image: /images/handshake.svg
@@ -43,6 +44,7 @@ banner2:
     enable: false 
     label: ¿Dudas? escribinos
     link: contact
+
 ---
 
 {{< faq "Will updates also be free?" >}}

@@ -10,6 +10,7 @@ menu:
     weight: 3
 
 banner:
+  titleFirst: true
   title: Instrumentación
   title_weight: 1
   image: /images/TermografiaBanner.jpg
