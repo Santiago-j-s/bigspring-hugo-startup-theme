@@ -1,4 +1,65 @@
 ---
 label: list
 hide_body: false
-fields: []
+fields:
+- name: enable
+  type: boolean
+  label: enable
+  default: true
+- name: background
+  type: select
+  default: bg-dark
+  config:
+    required: true
+    options:
+    - bg-dark
+    - bg-white
+    - bg-gray
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color de fondo
+  description: Color de fondo de la lista
+- name: text
+  type: select
+  default: light
+  config:
+    required: true
+    options:
+    - dark
+    - light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color del texto
+- name: texts
+  type: field_group_list
+  fields:
+  - name: texts
+    type: text
+    config:
+      required: false
+    label: Elemento de la lista
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Lista de textos
+  description: Acá van los artículos de la lista
+- name: image
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: Habilitar
+  - name: location
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen
+  label: Imagen
