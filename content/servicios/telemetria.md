@@ -1,10 +1,7 @@
 ---
 title: "Telemetría"
-
-# meta description
 description: "This is meta description"
 type: servicios/termografia
-# post draft
 draft: false
 sectionTitle: "Telemetría"
 menu:

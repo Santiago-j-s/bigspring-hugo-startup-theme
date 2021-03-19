@@ -1,10 +1,7 @@
 ---
 title: "Mantenimiento de plantas"
-
-# meta description
 description: "This is meta description"
 type: servicios/mantenimiento-de-plantas
-# post draft
 draft: false
 sectionTitle: "Mantenimiento de plantas"
 menu:

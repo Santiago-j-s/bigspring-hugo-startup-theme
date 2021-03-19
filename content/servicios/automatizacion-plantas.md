@@ -1,10 +1,7 @@
 ---
 title: "Automatización de plantas"
-
-# meta description
 description: "This is meta description"
 type: servicios/automatizacion-plantas
-# post draft
 draft: false
 sectionTitle: "Automatización de plantas"
 menu:

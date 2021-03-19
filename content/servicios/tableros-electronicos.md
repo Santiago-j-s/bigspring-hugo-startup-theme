@@ -1,10 +1,7 @@
 ---
 title: "tableros electrónicos"
-
-# meta description
 description: "This is meta description"
 type: servicios/tableros-electronicos
-# post draft
 draft: false
 sectionTitle: "Tableros Electrónicos"
 menu:

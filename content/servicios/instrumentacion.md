@@ -1,10 +1,7 @@
 ---
 title: "Instrumentación"
-
-# meta description
 description: "This is meta description"
 type: servicios/instrumentacion
-# post draft
 draft: false
 sectionTitle: "Instrumentación"
 menu:
