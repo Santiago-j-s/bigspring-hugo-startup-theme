@@ -12,3 +12,5 @@ fields:
   config: {}
   template: list
   label: list
+pages:
+- content/servicios/federico.md
