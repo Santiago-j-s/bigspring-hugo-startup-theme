@@ -2,15 +2,20 @@
 label: servicios
 hide_body: true
 fields:
-- name: banner
-  type: include
-  config: {}
-  template: banner
-  label: banner
 - name: list
   type: include
   config: {}
   template: list
   label: list
+- name: banner
+  type: field_group
+  config: {}
+  fields:
+  - name: field-group-banner
+    type: include
+    config: {}
+    template: banner
+    label: field-group-banner
+  label: banner
 pages:
 - content/servicios/federico.md
