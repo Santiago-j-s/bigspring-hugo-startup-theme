@@ -23,7 +23,7 @@ fields:
     maxSize: 64
   label: imagen del banner
   description: La imagen que pongas en el banner
-- name: textFirst
+- name: titleFirst
   type: boolean
   label: Texto primero
   description: Si esta activado, primero se mostrara el texto.<br>Si esta desactivado,
