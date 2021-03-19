@@ -2,11 +2,6 @@
 label: servicios
 hide_body: true
 fields:
-- name: list
-  type: include
-  config: {}
-  template: list
-  label: list
 - name: banner
   type: field_group
   config: {}
@@ -17,5 +12,15 @@ fields:
     template: banner
     label: field-group-banner
   label: banner
+- name: list
+  type: field_group
+  config: {}
+  fields:
+  - name: field-group-list
+    type: include
+    config: {}
+    template: list
+    label: field-group-list
+  label: list
 pages:
 - content/servicios/federico.md
