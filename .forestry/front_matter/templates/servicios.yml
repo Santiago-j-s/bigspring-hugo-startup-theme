@@ -1,4 +1,14 @@
 ---
 label: servicios
 hide_body: true
-fields: []
+fields:
+- name: list
+  type: include
+  config: {}
+  template: banner
+  label: list
+- name: banner
+  type: include
+  config: {}
+  template: banner
+  label: banner
