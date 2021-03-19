@@ -22,7 +22,7 @@ list:
   enable: true
   background: bg-dark
   text: light
-  text_weight: "1"
+  text_weight: '1'
   title:
     enable: false
     text: Probando 123
@@ -33,7 +33,7 @@ list:
       Esto permitirá al cliente:'
   image:
     enable: true
-    weight: "2"
+    weight: '2'
     location: "/images/termografia.jpeg"
   texts:
   - Realizar reportes preliminares de termografías. Un reporte cotidiano de una conexión
@@ -45,6 +45,7 @@ list:
     motores, etc. Dicha ejecución minimiza el riesgo de fallas de equipos y sus consecuencias.
     Al mismo tiempo permite al cliente ofrece una herramienta para el control de calidad
     de las reparaciones efectuadas.
+  - Agregado otro punto
 content: ''
 textFirst: false
 background: ''
