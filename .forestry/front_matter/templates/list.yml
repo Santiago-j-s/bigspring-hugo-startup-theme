@@ -1,5 +1,5 @@
 ---
-label: list
+label: partial | list
 hide_body: false
 fields:
 - name: enable
