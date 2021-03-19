@@ -36,20 +36,6 @@ fields:
       file: 
       path: 
   label: Color del texto
-- name: texts
-  type: field_group_list
-  fields:
-  - name: texts
-    type: text
-    config:
-      required: false
-    label: Elemento de la lista
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Lista de textos
-  description: Acá van los artículos de la lista
 - name: image
   type: field_group
   config: {}
@@ -63,3 +49,8 @@ fields:
       maxSize: 64
     label: Imagen
   label: Imagen
+- name: texts
+  type: tag_list
+  default: []
+  label: Lista de textos
+  description: Acá va una a una la lista de puntos
