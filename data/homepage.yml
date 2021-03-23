@@ -1,50 +1,64 @@
 ---
 feature:
   enable: true
-  title: ¿Qué hacemos?
+  title: "¿Qué hacemos?"
   feature_item:
+  - name: Obras
+    link: "/obras/termografia"
+    svg: calentamiento_fluidos.svg
+    content: Probando 123
   - name: Calentamiento de fluidos
     link: "/productos/calentamiento-de-fluidos"
     svg: calentamiento_fluidos.svg
-    content: Soluciones eficientes para el acondicionamiento térmico
-      de fluidos, especialmente los vinculados a la industria petrolífica
+    content: Soluciones eficientes para el acondicionamiento térmico de fluidos, especialmente
+      los vinculados a la industria petrolífica
   - name: termografía
     link: "/servicios/termografia"
     svg: termografia.svg
     content: Servicio de fotografías termográficas para ver condiciones de funcionamiento
 bigSection:
   title: Energías Renovables
-  title_weight: 1
+  title_weight: "1"
   images:
-    - images/energia_solar.jpg
-    - images/politicas_ambiente.svg
-    - images/WindTurbine.svg
-  image_weight: 2
+  - images/energia_solar.jpg
+  - images/politicas_ambiente.svg
+  - images/WindTurbine.svg
+  image_weight: "2"
   background: bg-white
   text: dark
-  content: "Ofrecemos las soluciones necesarias para la industria en general con productos de desarrollo propio o como integradores. Control Industrial, Calefacción de fluidos en reposo o en circulación, Automatización y provisión de instrumentos de medición."
+  content: Ofrecemos las soluciones necesarias para la industria en general con productos
+    de desarrollo propio o como integradores. Control Industrial, Calefacción de fluidos
+    en reposo o en circulación, Automatización y provisión de instrumentos de medición.
   button:
     enable: false
     label: Ver más información
     link: "#"
   items:
-    - title: Energía Solar
-      image: images/energia_solar.jpg
-      content: Aprovechá la fuente de energía inagotable, el sol, y cuida el medio ambiente
-      link: "/energias-renovables/energia-solar"
-    - title: Bombeo Solar
-      image: images/banner_bombeo_solar.png
-      content: Bomba hidraulica alimentada de forma directa por paneles solares fotovoltaicos, y disfrutá del agua todos los días del año, sin instalaciones fijas, libres de mantenimiento.
-      link: "/energias-renovables/bombeo-solar"
-    - title: Energía Eólica
-      image: images/molinos.jpg
-      content: Aprovechá la energía que ofrece el viento con nuestros aerogeneradores completamente aptos para ser utilizados en condiciones climáticas extremas, con un excelente rendimiento que satisface los requerimientos básicos de una vivienda rural en 220V o 240V
-      link: "/energias-renovables/energia-eolica"
+  - title: Energía Solar
+    image: images/energia_solar.jpg
+    content: Aprovechá la fuente de energía inagotable, el sol, y cuida el medio ambiente
+    link: "/energias-renovables/energia-solar"
+  - title: Bombeo Solar
+    image: images/banner_bombeo_solar.png
+    content: Bomba hidraulica alimentada de forma directa por paneles solares fotovoltaicos,
+      y disfrutá del agua todos los días del año, sin instalaciones fijas, libres
+      de mantenimiento.
+    link: "/energias-renovables/bombeo-solar"
+  - title: Energía Eólica
+    image: images/molinos.jpg
+    content: Aprovechá la energía que ofrece el viento con nuestros aerogeneradores
+      completamente aptos para ser utilizados en condiciones climáticas extremas,
+      con un excelente rendimiento que satisface los requerimientos básicos de una
+      vivienda rural en 220V o 240V
+    link: "/energias-renovables/energia-eolica"
 premios:
   enable: true
   title: Ganadores premio Tenaris 2007
   image: images/trofeito.png
-  content: El Premio Tenaris al Desarrollo Tecnológico Argentino está organizado por Tenaris junto al Ministerio de Ciencia, Tecnología e Innovación Productiva, con el apoyo de Endeavor, una organización que impulsa el desarrollo del país apoyando a emprendedores de alto impacto y promoviendo la cultura emprendedora.
+  content: El Premio Tenaris al Desarrollo Tecnológico Argentino está organizado por
+    Tenaris junto al Ministerio de Ciencia, Tecnología e Innovación Productiva, con
+    el apoyo de Endeavor, una organización que impulsa el desarrollo del país apoyando
+    a emprendedores de alto impacto y promoviendo la cultura emprendedora.
   button:
     enable: false
     label: Contáctanos
