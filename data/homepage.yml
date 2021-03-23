@@ -70,7 +70,7 @@ cards:
   altText: marcas
   content: ''
   button:
-    enable: true
+    enable: false
     label: Test
 - title: Titulo
   description: Descripción
