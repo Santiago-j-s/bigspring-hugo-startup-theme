@@ -3,6 +3,12 @@
   padding: 0px;
 }
 
+.card-deck{
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
 .feature-card {
   position: relative;
 
