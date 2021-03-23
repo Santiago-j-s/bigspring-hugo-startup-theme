@@ -21,6 +21,8 @@
 {{ end }}
 <!-- /banner -->
 
+{{ partial "card-deck.html" site.Data.homepage}}
+
 <!-- marcas -->
 {{ if .Params.clientes.enable }}
 {{ with .Params.clientes }}
@@ -77,7 +79,5 @@
 {{ end }}
 {{ end }}
 <!-- /call to action -->
-
-{{ partial "card-deck.html" site.Data.homepage}}
 
 {{ end }}
