@@ -64,15 +64,16 @@ premios:
     label: Contáctanos
     link: contact
 cards:
-  - title: Titulo
-    description: Descripción  
-    image: images/marcas.png
-    altText: marcas
-  - title: Titulo
-    description: Descripción  
-    image: images/marcas.png
-    altText: marcas
-  - title: Titulo
-    description: Descripción  
-    image: images/marcas.png
-    altText: marcas
+- title: Titulo
+  description: Descripción
+  image: images/marcas.png
+  altText: marcas
+  content: Aver
+- title: Titulo
+  description: Descripción
+  image: images/marcas.png
+  altText: marcas
+- title: Titulo
+  description: Descripción
+  image: images/marcas.png
+  altText: marcas
