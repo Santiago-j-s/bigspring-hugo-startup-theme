@@ -65,14 +65,14 @@ premios:
     link: contact
 cards:
   - title: Titulo
-    description: Descripción  
+    content: Descripción  
     image: images/marcas.png
     altText: marcas
   - title: Titulo
-    description: Descripción  
+    content: Descripción  
     image: images/marcas.png
     altText: marcas
   - title: Titulo
-    description: Descripción  
+    content: Descripción  
     image: images/marcas.png
     altText: marcas
