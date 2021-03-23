@@ -1,4 +1,41 @@
 ---
 label: partial | card-deck
 hide_body: true
-fields: []
+fields:
+- name: card
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Título
+    description: Título de la tarjeta
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Descripción
+  - name: imagen
+    type: file
+    config:
+      maxSize: 64
+    label: imagen
+  - name: alt-text
+    type: text
+    config:
+      required: false
+    label: Texto alternativo
+    description: Si la imagen es relevante, conviene poner un texto alternativo de
+      la misma para los no videntes. Pueden no poner texto alternativo si la imagen
+      no tiene relevancia.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: tarjeta
+  description: Las tarjetas que se mostraran
