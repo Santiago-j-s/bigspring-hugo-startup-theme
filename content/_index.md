@@ -14,7 +14,7 @@ banner:
   text: light
 
   button:
-    enable: true
+    enable: false
     label: ¿Dudas? escribinos
     link: contact
 
