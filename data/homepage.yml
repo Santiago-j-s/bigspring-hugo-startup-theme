@@ -68,7 +68,10 @@ cards:
   description: Descripción
   image: images/marcas.png
   altText: marcas
-  content: Aver
+  content: ''
+  button:
+    enable: true
+    label: Test
 - title: Titulo
   description: Descripción
   image: images/marcas.png
