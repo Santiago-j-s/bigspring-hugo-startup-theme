@@ -2,6 +2,10 @@
 title: Termografia
 description: This is meta description
 type: servicios/termografia
+menu:
+  main:
+    parent: servicios
+    weight: 1
 sectionTitle: Termografía
 banner:
   titleFirst: true
