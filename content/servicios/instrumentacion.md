@@ -6,12 +6,10 @@ sectionTitle: Instrumentación
 banner:
   titleFirst: true
   title: Instrumentación
-  image: "/images/TermografiaBanner.jpg"
-  content: Nuevamente la empresa Tecnotrol S.R.L está lanzando su nuevo servicio de
-    diagnostico por medio de imágenes termográficas. Una nueva oferta destinada a
-    las empresas petroleras y eléctricas. <br><br> Una termografía es una imagen radiométrica
-    de temperatura. Dicha imagen térmica, en instalaciones eléctricas, permite observar
-    las condiciones de funcionamiento del objeto, a traves de la temperatura de superficie.
+  image: "/images/instrumentacion-1.jpg"
+  content: Venta, instalación y mantenimiento de instrumentos de medición y control
+    con mas de 25 años de experiencia en el rubro, nos posiciona como una empresa
+    líder del sector. (CAUDAL, PRESION , TEMPERATURA Y NIVEL.)
   background: bg-dark
   text: light
   button:
