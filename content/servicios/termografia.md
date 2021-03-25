@@ -50,9 +50,5 @@ content: ''
 textFirst: false
 background: ''
 text: ''
-menu:
-  main:
-    name: Termografía
-    weight: 16
 
 ---
