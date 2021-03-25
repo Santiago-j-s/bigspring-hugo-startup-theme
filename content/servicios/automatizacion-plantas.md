@@ -6,12 +6,11 @@ sectionTitle: Automatización de plantas
 banner:
   titleFirst: true
   title: Automatización de plantas
-  image: "/images/TermografiaBanner.jpg"
-  content: Nuevamente la empresa Tecnotrol S.R.L está lanzando su nuevo servicio de
-    diagnostico por medio de imágenes termográficas. Una nueva oferta destinada a
-    las empresas petroleras y eléctricas. <br><br> Una termografía es una imagen radiométrica
-    de temperatura. Dicha imagen térmica, en instalaciones eléctricas, permite observar
-    las condiciones de funcionamiento del objeto, a traves de la temperatura de superficie.
+  image: "/images/image12.png"
+  content: |-
+    Automatización y mantenimiento de plantas de proceso continuo. Especialmente en la industria del petróleo y gas.
+
+    Plantas de tratamiento de crudo, Plantas de inyección de agua y Telemetría de pozos productores son algunos ejemplos de trabajos realizados.
   background: bg-dark
   text: light
   button:
