@@ -22,5 +22,3 @@ fields:
     template: list
     label: field-group-list
   label: list
-pages:
-- content/servicios/federico.md
