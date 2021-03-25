@@ -1,7 +1,7 @@
 ---
 title: Telemetría
 description: This is meta description
-type: servicios/termografia
+type: servicios/telemetria
 sectionTitle: Telemetría
 banner:
   titleFirst: true
