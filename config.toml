@@ -9,50 +9,58 @@ theme = "bigspring"
 title = "Tecnotrol"
 [markup.goldmark.renderer]
 unsafe = true
-[[menu.main]]
-identifier = "servicios"
-name = "Obras y Servicios"
-weight = 1
-[[menu.main]]
-identifier = "productos"
-name = "Productos"
-weight = 2
-[[menu.main]]
-identifier = "energia"
-name = "Energía"
-weight = 3
-[[menu.main]]
-identifier = "quienes-somos"
-name = "Quienes somos"
-weight = 4
 [[menu.footer_left]]
 URL = "empresa"
 name = "Empresa"
+weight = 3
 [[menu.footer_left]]
 URL = "proyectos-ejecutados"
 name = "Proyectos Ejecutados"
+weight = 2
 [[menu.footer_left]]
 URL = "politicas"
 name = "Políticas"
+weight = 1
 [[menu.footer_middle]]
 URL = "covun"
 name = "C.O.V.U.N"
+weight = 5
 [[menu.footer_middle]]
 URL = "productos"
 name = "Productos"
-[[menu.footer_middle]]
-URL = "#"
-name = "Termografía"
-[[menu.footer_middle]]
-URL = "#"
-name = "Obras y Servicios"
+weight = 4
 [[menu.footer_middle]]
 URL = "energias-renovables"
 name = "Energías Renovables"
+weight = 1
+[[menu.footer_middle]]
+URL = "#"
+name = "Obras y Servicios"
+weight = 2
+[[menu.footer_middle]]
+URL = "#"
+name = "Termografía"
+weight = 3
 [[menu.footer_right]]
 URL = "contactanos"
 name = "Contactanos"
-
+weight = 1
+[[menu.main]]
+identifier = "quienes-somos"
+name = "Quienes somos"
+weight = 13
+[[menu.main]]
+identifier = "energia"
+name = "Energía"
+weight = 12
+[[menu.main]]
+identifier = "productos"
+name = "Productos"
+weight = 9
+[[menu.main]]
+identifier = "servicios"
+name = "Obras y Servicios"
+weight = 4
 [params]
 author = "Themefisher"
 contact_form_action = "#"

@@ -45,6 +45,6 @@ list:
 menu:
   main:
     parent: servicios
-    weight: 6
+    weight: 15
 
 ---

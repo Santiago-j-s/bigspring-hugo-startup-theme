@@ -1,56 +1,54 @@
 ---
-title: "Desarrollos Propios"
-date: 2020-04-18T10:07:21+06:00
-# post image
-image: "images/blog/post-1.jpg"
-# meta description
-description: "This is meta description"
+title: Desarrollos Propios
+date: 2020-04-18T10:07:21.000+06:00
+image: images/blog/post-1.jpg
+description: This is meta description
 type: productos/desarrollos-propios
-# post draft
-draft: false
-sectionTitle: "Desarrollos Propios"
-menu:
-  main:
-    parent: "productos"
-    weight: 2
+sectionTitle: Desarrollos Propios
 banner:
   titleFirst: true
   title: Desarrollos propios
-  image: /images/productos.svg
-  content: Contamos con productos para el control y ejecución  de distintos fenómenos que faciliten  el trabajo humano
+  image: "/images/productos.svg"
+  content: Contamos con productos para el control y ejecución  de distintos fenómenos
+    que faciliten  el trabajo humano
   background: bg-dark
   text: light
   button:
     enable: true
-    label: ¿Dudas? escribinos
+    label: "¿Dudas? escribinos"
     link: contact
 carousel:
   enable: true
   background: bg-dark
   text: light
-  text_weight: 1
-  items: 
-   - item:
-        title: electricidad
-        image: /images/electricidad.jpeg
-        list:
-          - probando1
-          - probando2
-          - probando3
-   - item:
-        title: electricidad
-        image: /images/nivel.png
-        list:
-          - probando4
-          - probando5
-          - probando6
-   - item:
-        title: electricidad
-        image:  /images/nivel.png
-        list:
-          - probando7
-          - probando8
-          - probando9
+  text_weight: "1"
+  items:
+  - item:
+      title: electricidad
+      image: "/images/electricidad.jpeg"
+      list:
+      - probando1
+      - probando2
+      - probando3
+  - item:
+      title: electricidad
+      image: "/images/nivel.png"
+      list:
+      - probando4
+      - probando5
+      - probando6
+  - item:
+      title: electricidad
+      image: "/images/nivel.png"
+      list:
+      - probando7
+      - probando8
+      - probando9
+menu:
+  main:
+    parent: productos
+    weight: 6
+
 ---
 ## Caudal
 

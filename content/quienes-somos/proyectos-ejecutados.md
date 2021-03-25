@@ -1,32 +1,28 @@
 ---
-title: "Proyectos ejecutados"
-date: 2020-04-18T10:07:21+06:00
-# post image
-image: "images/blog/post-1.jpg"
-# meta description
-description: "This is meta description"
+title: Proyectos ejecutados
+date: 2020-04-18T10:07:21.000+06:00
+image: images/blog/post-1.jpg
+description: This is meta description
 type: quienes-somos/proyectos-ejecutados
-# post draft
-draft: false
-menu:
-  main:
-    parent: "quienes-somos"
-    weight: 1
-
 banner:
   titleFirst: true
   title: Proyectos Ejecutados
-  image: /images/proyectos_ejecutados.svg
-  content: "En Tecnotrol SRL tenemos una amplia trayectoria con una gran variedad de proyectos terminados para pequeñas y grandes empresas que le podrá dar una idea de la calidad que mantenemos en nuestra empresa"
+  image: "/images/proyectos_ejecutados.svg"
+  content: En Tecnotrol SRL tenemos una amplia trayectoria con una gran variedad de
+    proyectos terminados para pequeñas y grandes empresas que le podrá dar una idea
+    de la calidad que mantenemos en nuestra empresa
   background: bg-dark
   text: light
-
   button:
-    enable: false 
-    label: ¿Dudas? escribinos
+    enable: false
+    label: "¿Dudas? escribinos"
     link: contact
----
+menu:
+  main:
+    parent: quienes-somos
+    weight: 2
 
+---
 ### YPF
 
 Diseño, montaje, canalización y puesta en marcha de sistema de automatización de piletas de inyección de agua en YPF – Cañadón La Escondida.
